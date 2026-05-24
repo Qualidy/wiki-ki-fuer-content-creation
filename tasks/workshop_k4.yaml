@@ -1,0 +1,45 @@
+title: Arbeitsablauf und Prompt-Vorlagen in Copilot
+difficulty: 4
+question: |
+  **Ziel:** Einen wiederholbaren Copilot-Workflow für typische Content-Aufgaben etablieren. ChatGPT wird hier nicht genutzt – der Fokus liegt auf Copilot als Arbeitswerkzeug.
+
+  ---
+
+  **Phase 1 – Standard-Workflow definieren**
+
+  1. Notieren Sie **5 Content-Aufgaben**, die Sie regelmäßig bearbeiten (z. B. LinkedIn-Post, Newsletter-Teaser, Blog-Einleitung, Text kürzen, Ideenfindung).
+  2. Ordnen Sie jeder Aufgabe den passenden Copilot-Modus zu (Web/Work) und den typischen Prompt-Aufbau.
+
+  ---
+
+  **Phase 2 – Vorlagen entwickeln**
+
+  3. Erstellen Sie in Copilot für **3 der 5 Aufgaben** eine **Prompt-Vorlage** mit Platzhaltern in [eckigen Klammern]:
+     - Rolle/Kontext
+     - Format-Vorgaben
+     - No-Gos
+     - Konkrete Aufgabe
+
+  4. Testen Sie jede Vorlage mit **einem echten oder fiktiven Beispiel**.
+
+  5. Verfeinern Sie jede Vorlage mit **mindestens einem Folgeprompt** nach dem Test.
+
+  ---
+
+  **Phase 3 – Vergleich ChatGPT vs. Copilot**
+
+  6. Lesen Sie Kapitel 4.1–4.2.
+  7. Notieren Sie **zwei Situationen**, in denen Copilot die richtige Wahl ist – und **eine Situation**, in der ein externes Tool theoretisch Sinn machen könnte (ohne es zu nutzen).
+
+  ---
+
+  **Phase 4 – Prompt-Bibliothek**
+
+  8. Speichern Sie die 3 getesteten Vorlagen in einem Dokument (Word, Notion, OneNote – frei wählbar).
+  9. Ergänzen Sie je Vorlage: **Wann nutzen?** und **Typischer Folgeprompt**.
+
+  **Deliverables:** 3 getestete Prompt-Vorlagen mit Platzhaltern, 3 Beispiel-Ergebnisse aus Copilot.
+tip: |
+  Phase 3 ist bewusst kurz – ChatGPT wird nur eingeordnet, nicht geübt. Der Schwerpunkt liegt auf Copilot-Vorlagen für den Arbeitsalltag.
+solution: |
+  Gute Vorlage: wiederverwendbar, Platzhalter klar benannt, No-Gos enthalten, Format messbar (Länge, Kanal). Nach Test mindestens ein Folgeprompt dokumentiert.

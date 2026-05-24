@@ -1,0 +1,49 @@
+title: Copilot kennenlernen – erster Content-Workflow
+difficulty: 4
+question: |
+  **Ausgangslage:** Die fiktive Marke **Nordkorn** verkauft regionales Müsli online. Zielgruppe: Berufstätige 28–45, gesundheitsbewusst, wenig Zeit morgens. Ton: sachlich, freundlich, Du-Form.
+
+  Arbeiten Sie in **Copilot Chat** (Web-Modus) und dokumentieren Sie Ihre Prompts.
+
+  ---
+
+  **Phase 1 – Erkundung**
+
+  1. Öffnen Sie Copilot Chat und prüfen Sie den Web-Modus.
+  2. Führen Sie einen **vagen Prompt** aus: „Schreib einen Text über unser Müsli."
+  3. Führen Sie einen **präzisen Prompt** aus mit: Produkt, Zielgruppe, Kanal (Instagram), Ton, Länge, mindestens ein No-Go.
+  4. Vergleichen Sie beide Ergebnisse direkt in Copilot.
+
+  ---
+
+  **Phase 2 – Erste Texte**
+
+  5. Erstellen Sie eine **Instagram-Caption** für den Produkt-Launch (max. 80 Wörter, 3 Hashtags).
+  6. Formulieren Sie **zwei Folgeprompts**: Ton schärfen, Hook verbessern.
+  7. Erstellen Sie eine **LinkedIn-Variante** desselben Inhalts (max. 600 Zeichen, Sie-Form).
+
+  ---
+
+  **Phase 3 – Grenzen erkennen**
+
+  8. Bitten Sie Copilot um **fünf Nährwert-Claims** für das Müsli. Prüfen Sie, welche Behauptungen problematisch wären.
+  9. Formulieren Sie einen Prompt mit No-Gos für **Gesundheitsversprechen** und lassen Sie die Caption neu schreiben.
+
+  ---
+
+  **Phase 4 – Abschluss**
+
+  10. Wählen Sie den stärksten Text (Instagram oder LinkedIn).
+  11. Finalisieren Sie ihn mit **einem letzten Folgeprompt**.
+  12. Speichern Sie Ihren **präzisen Prompt aus Schritt 2** als wiederverwendbare Vorlage mit Platzhaltern.
+
+  **Deliverables:** finaler Text, alle verwendeten Prompts, Prompt-Vorlage.
+tip: |
+  Phase 1 gemeinsam im Plenum sinnvoll. Phasen 2–3 eigenständig oder in Paaren. Phase 4 kurz im Roundtable vorstellen.
+solution: |
+  Bewertungskriterien (Selbstcheck):
+
+  - Präziser Prompt liefert deutlich spezifischeres Ergebnis als vager Prompt
+  - Finaler Text enthält konkreten Nutzen, kein generisches Marketingdeutsch
+  - No-Gos zu Gesundheitsversprechen sind im Prompt formuliert und im Text eingehalten
+  - Mindestens drei Prompts bauen aufeinander auf (Folgeprompts)

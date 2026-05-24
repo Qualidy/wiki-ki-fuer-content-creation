@@ -1,0 +1,47 @@
+title: Multi-Kanal-Kampagne aus einer Kernbotschaft
+difficulty: 4
+question: |
+  **Kernbotschaft (verifiziert, nicht von Copilot erfinden lassen):**
+
+  > Ab 1. Juli können Bestandskunden unseren Online-Shop ohne Kundenkonto bestellen – Bestellung in drei Schritten, Lieferung in 2–3 Werktagen.
+
+  **Marke:** Wählen Sie eine echte oder fiktive Marke mit klarer Zielgruppe.
+
+  ---
+
+  **Phase 1 – Vorbereitung**
+
+  1. Formulieren Sie Zielgruppe, Ton und **mindestens drei No-Gos** für Ihre Marke.
+  2. Erstellen Sie einen **Persona-Block** (max. 5 Sätze) für Copilot-Prompts.
+
+  ---
+
+  **Phase 2 – Kanal-Prompts**
+
+  3. Erstellen Sie in **einem Prompt** oder in **vier separaten Prompts**:
+     - LinkedIn-Post (max. 900 Zeichen, Sie-Form, Hook, CTA)
+     - Instagram-Caption (max. 80 Wörter, Du-Form, 5 Hashtags)
+     - Newsletter: Betreffzeile (max. 50 Zeichen) + Teaser (2 Sätze)
+     - Blog-Einleitung (ca. 100 Wörter, sachlich)
+
+  4. Prüfen Sie jeden Text gegen Ihre No-Gos. Korrigieren Sie Verstöße per Folgeprompt.
+
+  ---
+
+  **Phase 3 – Konsistenz**
+
+  5. Lassen Sie Copilot prüfen: „Klingen alle vier Texte nach derselben Marke? Was ist inkonsistent?"
+  6. Passen Sie den schwächsten Text per Folgeprompt an.
+
+  ---
+
+  **Phase 4 – Abschluss**
+
+  7. Wählen Sie den stärksten Kanal-Text und begründen Sie die Wahl in **einem Satz** (intern).
+  8. Speichern Sie den Multi-Kanal-Prompt als Vorlage mit Platzhaltern.
+
+  **Deliverables:** Persona-Block, 4 Kanal-Texte, Multi-Kanal-Prompt-Vorlage.
+tip: |
+  Gleiche Fakten, unterschiedliche Kanal-Logik. No-Gos in jedem Prompt wiederholen.
+solution: |
+  Häufige Fehler: gleicher Ton auf allen Kanälen (Instagram klingt wie LinkedIn), erfundene Zusatzfakten, fehlende Kanal-Längen. Gut: einheitliche Marke, kanalspezifischer Stil.

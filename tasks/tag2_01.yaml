@@ -1,18 +1,22 @@
-title: User-CAL oder Device-CAL?
-difficulty: 1
+title: Gezielte Textüberarbeitung
+difficulty: 3
 question: |
-  Ein Unternehmen hat einen Windows Server für Dateifreigaben. Es gibt 20 Mitarbeiter und 15 Arbeitsplatz-PCs.
-  
-  **Frage:** Welcher CAL-Typ ist in diesem Fall günstiger – User-CAL oder Device-CAL? Rechne kurz nach und erkläre warum.
+  Kopiere diesen Text in **Copilot Chat**:
+
+  > „In der heutigen schnelllebigen und digitalisierten Welt ist es für Unternehmen wichtiger denn je, ihre internen Prozesse zu optimieren, um wettbewerbsfähig zu bleiben. Unsere revolutionäre Softwarelösung bietet einzigartige Möglichkeiten, die Effizienz zu steigern."
+
+  Formuliere **drei separate Prompts** und führe sie nacheinander aus:
+
+  1. Füllwörter und Floskeln entfernen
+  2. Auf 30 Wörter kürzen
+  3. LinkedIn-Hook-Zeile formulieren (max. 150 Zeichen, kein Buzzword)
+
+  **Deliverable:** die drei überarbeiteten Textversionen aus Copilot.
 tip: |
-  User-CAL = eine CAL pro Person. Device-CAL = eine CAL pro Gerät.
-  Überlege: Welche Zahl ist kleiner – Personen oder Geräte?
+  Ein Ziel pro Prompt. Die Reihenfolge kann variieren – wichtig ist die Trennung der Aufgaben.
 solution: |
-  **Device-CAL ist günstiger**, weil 15 Geräte < 20 Personen.
-  
-  - User-CAL: 20 Lizenzen (eine pro Mitarbeiter)
-  - Device-CAL: 15 Lizenzen (eine pro PC)
-  
-  Das Unternehmen spart 5 Lizenzen durch Device-CALs.
-  
-  Hinweis: Voraussetzung ist, dass die Mitarbeiter nur von diesen 15 PCs aus auf den Server zugreifen.
+  Beispiel-Prompts:
+
+  1. „Entferne Füllwörter, Klischees und Superlative. Kernaussage beibehalten."
+  2. „Kürze auf 30 Wörter."
+  3. „Formuliere eine LinkedIn-Hook-Zeile (max. 150 Zeichen). Konkret, kein Buzzword."

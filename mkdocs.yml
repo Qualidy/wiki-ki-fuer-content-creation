@@ -1,12 +1,15 @@
-site_name: "M1.9 – Lizenzierungsarten"
+site_name: "Content Creation mit KI"
 
 nav:
   - Übersicht: index.md
-  - "Kapitel 1": content/kapitel1.md
-  - "Kapitel 2": content/kapitel2.md
-  - "Kapitel 3": content/kapitel3.md
-  - "Kapitel 4": content/kapitel4.md
-  - "Kapitel 5": content/kapitel5.md
+  - "Kapitel 1 – Was ist Copilot?": content/kapitel1.md
+  - "Kapitel 2 – Texte schreiben": content/kapitel2.md
+  - "Kapitel 3 – Ideen & Planung": content/kapitel3.md
+  - "Kapitel 4 – ChatGPT im Überblick": content/kapitel4.md
+  - "Kapitel 5 – Gute Prompts & RCFT": content/kapitel5.md
+  - "Kapitel 6 – Prompts verbessern": content/kapitel6.md
+  - "Kapitel 7 – Blog, Social & Newsletter": content/kapitel7.md
+  - "Kapitel 8 – Persona & Storytelling": content/kapitel8.md
 
 theme:
   name: material

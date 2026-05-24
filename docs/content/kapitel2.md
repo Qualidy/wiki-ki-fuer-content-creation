@@ -1,4 +1,4 @@
-# Kapitel 2 – Unternehmenslizenzen
+# Kapitel 2 – Mit Copilot Texte schreiben
 
 <div class="kurs-progress">
   <div class="step done"></div>
@@ -6,130 +6,106 @@
   <div class="step"></div>
   <div class="step"></div>
   <div class="step"></div>
+  <div class="step"></div>
+  <div class="step"></div>
+  <div class="step"></div>
 </div>
 
 <div class="lernziele" markdown>
-<h3>Was du heute lernst</h3>
+<h3>Was du in diesem Kapitel lernst</h3>
 
-- User-Lizenzen und Gerätelizenzen unterscheiden
-- Named User License (NUL) erklären und einordnen
-- Verstehen, wie die KMS-Aktivierung in Unternehmen funktioniert
-- CAL-Lizenzen für Windows Server kennen und anwenden
-- Lizenzbedarfe aus Unternehmensszenarien ableiten
+- Aus Stichpunkten einen strukturierten Textentwurf entwickeln
+- Bestehende Texte gezielt überarbeiten, kürzen und im Ton anpassen
+- Warum schrittweises Vorgehen bessere Ergebnisse liefert als ein einzelner Gesamtauftrag
 </div>
 
 ---
 
-## 2.1 User-Lizenzen vs. Gerätelizenzen
+## So gehst du vor
 
-Im Unternehmensumfeld gibt es zwei grundlegende Konzepte, wie Software lizenziert werden kann:
-
-### User-Lizenz (Nutzer-Lizenz)
-
-Eine **User-Lizenz** ist an eine bestimmte **Person** gebunden. Der Nutzer darf die Software auf mehreren Geräten installieren – aber immer nur er selbst.
-
-**Beispiel:** Eine Office-365-Lizenz für „Anna Müller". Anna darf Office auf ihrem Büro-PC, ihrem Laptop und ihrem Heimrechner nutzen – andere Mitarbeiter jedoch nicht.
-
-### Geräte-Lizenz (Device License)
-
-Eine **Geräte-Lizenz** ist an ein bestimmtes **Gerät** gebunden. Auf diesem Gerät dürfen beliebig viele Nutzer die Software verwenden – aber die Lizenz gilt nur für dieses eine Gerät.
-
-**Beispiel:** Ein Kassensystem mit einer Gerätelizenz. Verschiedene Kassierer nutzen dasselbe Gerät – die Lizenz bleibt am Gerät.
-
-!!! info "Wann welches Modell?"
-    **User-Lizenz** eignet sich, wenn Mitarbeiter von mehreren Geräten aus arbeiten (z. B. Büro + Homeoffice).
-    
-    **Gerätelizenz** ist sinnvoll, wenn viele Personen dasselbe Gerät teilen (z. B. Schichtbetrieb, Kassensysteme).
+1. Lies die Kapitelinhalte und probiere die Beispiele in Copilot aus.
+2. Bearbeite die **Kurzübungen** der Reihe nach – von Grundlagen bis Experte.
+3. Arbeite die **Workshop-Aufgabe** durch. Sie vertieft das Gelernte an einem zusammenhängenden Szenario.
 
 ---
 
-## 2.2 Named User License (NUL)
+## 2.1 Schrittweises Vorgehen
 
-Eine **Named User License** (NUL) ist eine spezifische Form der User-Lizenz. Sie ist **namentlich** einer konkreten Person zugeordnet und kann **nicht** auf andere übertragen werden, ohne einen formalen Verwaltungsprozess.
+Ein häufig beobachteter Einstiegsfehler: Ein umfassender Auftrag wird auf einmal formuliert – zum Beispiel „Schreib einen vollständigen Blogartikel mit Einleitung, Hauptteil und Fazit". Das Ergebnis ist in der Regel generisch, weil die KI alle fehlenden Informationen mit statistisch wahrscheinlichem, aber inhaltlich unspezifischem Material auffüllt.
 
-### Typische Einsatzbereiche
+Bewährter ist ein schrittweiser Ansatz:
 
-- SAP-Systeme (SAP Professional User License)
-- Adobe Creative Cloud (pro Person)
-- Spezialsoftware in der Buchhaltung oder im ERP-System
-
-!!! warning "Häufiger Fehler"
-    Eine NUL darf **nicht** geteilt werden. Wenn zwei Mitarbeiter sich einen Login teilen, um Lizenzkosten zu sparen, ist das eine **Lizenzverletzung** – auch wenn die Software technisch funktioniert.
-
----
-
-## 2.3 KMS-Aktivierung
-
-**KMS** steht für **Key Management Service**. Es ist eine Technologie von Microsoft, mit der große Unternehmen Windows und Office **zentral aktivieren** können – ohne dass jedes Gerät einzeln mit Microsoft kommunizieren muss.
-
-### Wie funktioniert KMS?
-
-```mermaid
-flowchart LR
-    A[Client-PC] -->|Aktivierungsanfrage| B[KMS-Server\nim Firmennetz]
-    B -->|Aktivierungsbestätigung| A
-    B -->|Einmalige Registrierung| C[Microsoft-Server]
+```
+Stichpunkte eingeben
+      ↓
+Ersten Entwurf anfordern (ein Abschnitt)
+      ↓
+Ton und Länge anpassen
+      ↓
+Varianten vergleichen
+      ↓
+Nächsten Abschnitt angehen
 ```
 
-1. Das Unternehmen richtet einen **KMS-Server** im internen Netzwerk ein
-2. Jeder PC im Netzwerk aktiviert sich beim KMS-Server (nicht bei Microsoft direkt)
-3. Der KMS-Server kommuniziert nur einmalig mit Microsoft
-4. Die Aktivierung der Clients muss alle **180 Tage** erneuert werden – solange der KMS-Server erreichbar ist, geschieht das automatisch
-
-### Voraussetzungen
-
-- Mindestens **25 Clients** (Windows) oder **5 Clients** (Office) müssen den KMS-Server kontaktieren, damit er aktiv wird
-- Der PC muss sich mindestens alle 180 Tage im Firmennetz einloggen (oder per VPN)
-
-!!! tip "Praktische Relevanz"
-    Im Unternehmensalltag wirst du oft KMS-aktivierte Windows-Installationen sehen. Erkennbar daran, dass die Aktivierung im Firmennetz automatisch klappt, aber ohne Netzwerkanschluss eine Warnung erscheint.
+Jeder Schritt einzeln dauert kaum länger als ein einziger großer Auftrag – liefert aber deutlich bessere Ergebnisse.
 
 ---
 
-## 2.4 CAL-Lizenzen für Windows Server
+## 2.2 Aus Stichpunkten einen Textentwurf entwickeln
 
-**CAL** steht für **Client Access License** – eine Zugriffslizenz für Windows Server.
+**Ausgangsmaterial:**
 
-Wenn Mitarbeiter auf einen Windows Server zugreifen (z. B. für Dateifreigaben, Drucker, Active Directory), benötigt **jeder Zugreifende** eine CAL – zusätzlich zur Server-Lizenz selbst.
+> - Thema: „ReportEasy" – Software zur Automatisierung monatlicher Berichte
+> - Zielgruppe: Teamleiter in kleinen Unternehmen
+> - Vorteil: spart 2–3 Stunden pro Monat
+> - Ton: freundlich, direkt
 
-!!! info "Wichtig"
-    Die Windows-Server-Lizenz erlaubt den **Betrieb** des Servers. Die CAL erlaubt den **Zugriff** auf den Server. Beides wird benötigt!
+**Prompt:**
 
-### Die zwei CAL-Typen
+> Schreib eine kurze Einleitung für einen Blogartikel (ca. 80 Wörter). Zielgruppe: Teamleiter in Unternehmen bis 50 Mitarbeitende. Ton: freundlich und direkt, Sie-Form. Keine Preisangaben. Thema: eine Software, die monatliche Berichte automatisiert und 2–3 Stunden Arbeit einspart.
 
-#### User-CAL
-
-Eine User-CAL ist an eine **Person** gebunden. Der Nutzer darf von beliebig vielen Geräten aus auf den Server zugreifen.
-
-**Wann sinnvoll?** Wenn Mitarbeiter von mehreren Geräten aus zugreifen (PC + Laptop + Terminal).
-
-#### Device-CAL
-
-Eine Device-CAL ist an ein **Gerät** gebunden. Vom diesem Gerät aus darf eine beliebige Anzahl von Nutzern auf den Server zugreifen.
-
-**Wann sinnvoll?** Wenn viele Mitarbeiter dasselbe Gerät nutzen (z. B. Schichtarbeit, Produktionsrechner).
-
-### Entscheidungsdiagramm
-
-```mermaid
-flowchart TD
-    A[Wie greifen Nutzer auf den Server zu?] --> B{Jeder Nutzer hat\nsein eigenes Gerät?}
-    B -->|Ja| C[User-CAL\npro Person]
-    B -->|Nein| D{Mehrere Nutzer\nteilen Geräte?}
-    D -->|Ja| E[Device-CAL\npro Gerät]
-    D -->|Weiß nicht| F[Kosten vergleichen:\nWeniger Nutzer → User-CAL\nWeniger Geräte → Device-CAL]
-```
+Der erste Entwurf ist üblicherweise ein brauchbarer Ausgangspunkt – noch kein Endtext. Der nächste Schritt ist ein gezielter Folgeprompt.
 
 ---
 
-## Aufgaben – Kapitel 2
+## 2.3 Texte überarbeiten
+
+Copilot kann auch bereits geschriebene Texte bearbeiten. Dazu wird der Text in den Chat kopiert und der Überarbeitungsauftrag formuliert:
+
+| Ziel | Prompt-Formulierung (Beispiel) |
+|---|---|
+| Kürzen | „Kürze diesen Text auf ca. 100 Wörter. Die Hauptaussage soll erhalten bleiben." |
+| Ton ändern | „Formuliere sachlicher. Keine Ausrufezeichen, keine Superlative." |
+| Verständlichkeit verbessern | „Schreib das so um, dass es ohne Fachkenntnisse verständlich ist." |
+| Varianten erzeugen | „Gib mir drei verschiedene Formulierungen für den ersten Satz." |
+| Kanal wechseln | „Mach daraus einen LinkedIn-Post. Maximal 900 Zeichen." |
+
+!!! tip "Ein Ziel pro Prompt"
+    Mehrere Überarbeitungsziele gleichzeitig führen zu unscharfen Ergebnissen. Besser: nacheinander vorgehen, ein Schritt pro Prompt.
+
+---
+
+## 2.4 Qualitätskontrolle
+
+Copilot liefert Entwürfe – keine freigabefertigen Texte. Vor dem Weiternutzen sollte geprüft werden:
+
+- [ ] Stimmen alle genannten Fakten, Namen und Zahlen?
+- [ ] Klingt der Text nach der Marke – oder noch generisch?
+- [ ] Passt der Ton zum Kanal und zur Zielgruppe?
+- [ ] Enthält der Text Behauptungen, die nicht belegt werden können?
+
+---
+
+## Kurzübungen
+
+{{ task(file="tasks/tag1_04.yaml") }}
+
+{{ task(file="tasks/tag1_05.yaml") }}
 
 {{ task(file="tasks/tag2_01.yaml") }}
 
-{{ task(file="tasks/tag2_02.yaml") }}
+---
 
-{{ task(file="tasks/tag2_03.yaml") }}
+## Workshop
 
-{{ task(file="tasks/tag2_04.yaml") }}
-
-{{ task(file="tasks/tag2_05.yaml") }}
+{{ task(file="tasks/workshop_k2.yaml") }}

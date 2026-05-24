@@ -729,6 +729,10 @@ body {
   background: var(--text-1);
   color: #ffffff;
 }
+.task-level--4 {
+  background: #1a3a5c;
+  color: #ffffff;
+}
 
 /* ── Tabellen ────────────────────────────────────────────── */
 

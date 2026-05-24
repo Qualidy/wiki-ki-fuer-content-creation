@@ -54,7 +54,7 @@ def create_task(title="Aufgabe",
                 solution_video=None,
                 question_video=None):
 
-    difficulty_labels = {1: "Grundlagen", 2: "Vertiefung", 3: "Herausforderung"}
+    difficulty_labels = {1: "Grundlagen", 2: "Fortgeschritten", 3: "Experte", 4: "Workshop"}
     difficulty_label = difficulty_labels.get(difficulty, "")
     level_badge = (
         f'<span class="task-level task-level--{difficulty}">{difficulty_label}</span> '

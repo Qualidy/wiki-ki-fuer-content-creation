@@ -1,24 +1,17 @@
-title: Lizenzmodell für ein wachsendes Unternehmen
-difficulty: 2
+title: Textentwurf aus Stichpunkten
+difficulty: 1
 question: |
-  Das Unternehmen „DataFlow GmbH" hat aktuell 12 Mitarbeiter und plant in den nächsten 2 Jahren auf 50 Mitarbeiter zu wachsen.
-  
-  Die IT-Abteilung diskutiert, ob sie neue PCs mit OEM-Lizenzen kaufen oder auf ein Volumenlizenzprogramm wechseln soll.
-  
-  **Erstelle eine Tabelle**, die die Vor- und Nachteile beider Modelle für die DataFlow GmbH gegenüberstellt.
-  
-  **Empfehle** anschließend ein Modell und begründe es mit mindestens zwei Argumenten.
+  Gib in **Copilot Chat** diesen Prompt ein:
+
+  > Du bist Texter für die App TimeTrack (Zeiterfassung für Freelancer, mobil, kostenlos, ohne Anmeldung). Schreib eine Einleitung für die Produktseite – ca. 60 Wörter, Sie-Form, sachlich und direkt. Keine Preisangaben.
+
+  Formuliere danach **zwei Folgeprompts** nacheinander:
+  1. Ton anpassen (persönlicher oder sachlicher – je nach Zielkanal)
+  2. Text auf ca. 40 Wörter kürzen, Kernaussage beibehalten
 tip: |
-  Denke an die Aspekte: Flexibilität bei Gerätewechsel, Verwaltungsaufwand bei vielen Geräten, Kosten, Skalierbarkeit.
+  Schrittweise vorgehen: Erst Entwurf, dann Ton, dann Länge. Nicht alles in einem Prompt.
 solution: |
-  | Kriterium | OEM | Volumenlizenz |
-  |---|---|---|
-  | Kosten initial | Günstiger | Höher, aber Mengenrabatt |
-  | Flexibilität | Gering (gerätegebunden) | Hoch (verschiebbar) |
-  | Verwaltung bei 50+ Geräten | Aufwändig | Zentral, einfach |
-  | Bei Gerätewechsel | Neue Lizenz nötig | Lizenz übertragbar |
-  | Wachstum | Jedes Gerät einzeln | Skalierbar |
-  
-  **Empfehlung:** Volumenlizenz, weil:
-  1. Bei 50 Mitarbeitern ist zentrale Verwaltung deutlich effizienter
-  2. Bei Gerätewechsel oder Austausch fallen keine neuen Lizenzkosten an
+  Beispiel-Folgeprompts:
+
+  1. „Formuliere persönlicher und direkter. Du-Form."
+  2. „Kürze auf 40 Wörter. Kernnutzen: mobile Zeiterfassung ohne Anmeldung."

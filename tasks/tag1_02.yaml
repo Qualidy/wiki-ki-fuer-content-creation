@@ -1,20 +1,14 @@
-title: OEM oder Volumenlizenz?
-difficulty: 1
+title: Zwei Varianten in Copilot
+difficulty: 2
 question: |
-  Ordne die folgenden Szenarien dem richtigen Lizenzmodell zu (OEM oder Volumenlizenz).
-  Begründe deine Entscheidung in einem Satz.
-  
-  **Szenario A:** Ein mittelständisches Unternehmen kauft 80 neue PCs bei einem Händler. Windows ist bereits vorinstalliert und aktiviert.
-  
-  **Szenario B:** Ein Unternehmen kauft nachträglich 80 Windows-Lizenzen, um bestehende PCs in der Buchhaltung zu lizenzieren.
-  
-  **Szenario C:** Eine Schule kauft 30 Laptops für die Schüler. Auf jedem Laptop ist Windows bereits installiert.
+  Arbeite in **Copilot Chat** und gib diesen Prompt ein:
+
+  > Schreib zwei Varianten für den Einstieg einer Produktseite. Produkt: Trinkflasche aus recyceltem Plastik. Zielgruppe: umweltbewusste Berufstätige. Variante A: sachlich, Sie-Form. Variante B: direkter, Du-Form. Je Variante max. 30 Wörter.
+
+  Wähle die passendere Variante und formuliere einen Folgeprompt, der daraus einen vollständigen Absatz für die Produktseite macht (ca. 80 Wörter).
 tip: |
-  OEM-Lizenzen kommen immer zusammen mit der Hardware – sie sind bereits beim Kauf des Geräts dabei.
-  Volumenlizenzen werden unabhängig von der Hardware gekauft.
+  Copilot kann mehrere Varianten in einem Prompt liefern. Der nächste Schritt ist die Auswahl und Weiterentwicklung – nicht der Vergleich als Textaufgabe.
 solution: |
-  **Szenario A:** OEM-Lizenz – Windows ist bereits auf den neuen PCs vorinstalliert und an diese Hardware gebunden.
-  
-  **Szenario B:** Volumenlizenz – die Software wird nachträglich und unabhängig von der Hardware erworben.
-  
-  **Szenario C:** OEM-Lizenz – auch bei Schulen gilt: vorinstalliertes Windows auf gekauften Laptops = OEM.
+  Beispiel-Folgeprompt:
+
+  > Nimm Variante B. Entwickle daraus einen Produktseiten-Absatz (ca. 80 Wörter). Ton beibehalten. Keine Preisangaben, keine Superlative.

@@ -1,21 +1,18 @@
-title: Was ist eine Lizenz?
+title: Erster Prompt in Copilot
 difficulty: 1
 question: |
-  Erkläre in eigenen Worten, was eine Softwarelizenz ist.
-  
-  Beantworte dabei folgende Fragen:
-  
-  1. Was kauft man, wenn man eine Software „kauft"?
-  2. Was regelt eine Lizenz?
-  3. Nenne ein Beispiel aus dem Alltag, das das Prinzip verdeutlicht.
+  Öffne [copilot.microsoft.com](https://copilot.microsoft.com) und melde dich mit deinem Microsoft-Konto an. Stelle sicher, dass der **Web**-Modus aktiv ist.
+
+  Gib diesen Prompt ein:
+
+  > Du bist Texter für ein kleines Café. Schreib einen kurzen Instagram-Post für Montag. Ton: einladend, Du-Form. Max. 60 Wörter.
+
+  Formuliere danach **einen Folgeprompt**, der den Entwurf für den Einsatz verbessert – z. B. konkreterer Einstieg, kürzerer Text oder klarer Call-to-Action.
 tip: |
-  Denke daran: Du kaufst das Nutzungsrecht, nicht die Software selbst. Ein Buch, das du kaufst, darfst du auch nicht einfach kopieren und weitergeben.
+  Der erste Entwurf ist selten der letzte. Ein gezielter Folgeprompt ist der nächste Arbeitsschritt.
 solution: |
-  Wenn man Software „kauft", erwirbt man nicht die Software selbst, sondern ein **Nutzungsrecht** (Lizenz). Die Software bleibt geistiges Eigentum des Herstellers.
-  
-  Eine Lizenz regelt:
-  - Auf wie vielen Geräten die Software installiert werden darf
-  - Für welchen Zweck sie genutzt werden darf (privat/gewerblich)
-  - Ob sie weitergegeben werden darf
-  
-  Beispiel: Ein Buch kaufen – man besitzt das Buch, darf es aber nicht kopieren und verkaufen.
+  Beispiel-Folgeprompts:
+
+  - „Kürze auf 45 Wörter. Erste Zeile soll neugierig machen."
+  - „Formuliere den Einstieg direkter. Keine Floskeln."
+  - „Füge am Ende einen CTA hinzu: ‚Heute vorbeikommen.'"

@@ -1,41 +1,18 @@
-title: EULA-Klauseln analysieren
-difficulty: 2
+title: Stil durch Beispiele vorgeben
+difficulty: 3
 question: |
-  Lies die folgenden EULA-Klauseln und beantworte die Fragen dazu.
+  Hier sind zwei Posts im Stil einer fiktiven Marke:
   
-  ---
+  > „Montag, und du hast schon drei Dinge erledigt? Respekt. Unser neues Notizbuch hilft dir, dieses Tempo zu halten."
   
-  **Klausel 1:**
-  *„This software is licensed for use on a single computer. Use on multiple computers simultaneously is prohibited."*
+  > „Ideen kommen morgens um 3 Uhr. Gut, dass du sie irgendwo festhalten kannst."
   
-  **Klausel 2:**
-  *„By installing this software, you consent to the collection of anonymized usage statistics, including but not limited to: features used, session duration, and error reports."*
+  **Aufgabe:** Nutze diese Beispiele als Stilvorlage und lass die KI einen dritten Post schreiben – über ein neues digitales Notizbuch (App, kostenlos, keine Anmeldung nötig).
   
-  **Klausel 3:**
-  *„The vendor shall not be liable for any direct, indirect, incidental, or consequential damages arising from the use of this software."*
-  
-  **Klausel 4:**
-  *„This agreement may be terminated by the vendor without notice if the user violates any terms herein."*
-  
-  ---
-  
-  **Aufgaben:**
-  1. Erkläre jede Klausel in einfachem Deutsch (1–2 Sätze pro Klausel).
-  2. Welche Klausel ist für ein Unternehmen aus DSGVO-Sicht besonders relevant?
-  3. Welche Klausel könnte in Deutschland rechtlich problematisch sein?
+  Formuliere den Prompt so, dass klar ist: Die KI soll diesen Stil treffen, nicht einen anderen.
 tip: |
-  Übersetze die Klauseln zunächst wörtlich. Dann überlege: Was bedeutet das konkret für einen Nutzer oder ein Unternehmen?
+  Zeig der KI die Beispiele im Prompt und beschreib kurz, was diesen Stil ausmacht (z. B. kurze Sätze, direkter Ton, leichter Humor).
 solution: |
-  **Klausel 1:** Die Software darf nur auf einem PC gleichzeitig genutzt werden. Wer die Software auf zwei Rechnern gleichzeitig laufen lässt, verstößt gegen den Vertrag.
+  Beispiel-Prompt:
   
-  **Klausel 2:** Durch die Installation stimmt man zu, dass Nutzungsdaten (welche Funktionen verwendet werden, wie lange, welche Fehler auftreten) gesammelt werden – angeblich anonymisiert.
-  
-  **Klausel 3:** Der Hersteller haftet nicht für Schäden, die durch die Software entstehen – egal ob direkte Schäden (z. B. Datenverlust) oder Folgeschäden (z. B. Betriebsausfall).
-  
-  **Klausel 4:** Der Anbieter kann den Vertrag sofort und ohne Vorwarnung kündigen, wenn der Nutzer gegen die Bedingungen verstößt. Die Software könnte dann sofort gesperrt werden.
-  
-  ---
-  
-  **DSGVO-Relevanz:** Klausel 2 ist kritisch. Selbst wenn die Daten anonymisiert sind, muss ein Unternehmen prüfen, ob die Datenerhebung DSGVO-konform ist. Bei Unternehmens-PCs könnten auch personenbezogene Daten erfasst werden.
-  
-  **Rechtlich problematisch:** Klausel 3 (Haftungsausschluss) ist in Deutschland eingeschränkt wirksam. Das AGB-Recht (§ 307 BGB) schränkt weitgehende Haftungsausschlüsse ein – z. B. kann der Hersteller bei Vorsatz oder grober Fahrlässigkeit nicht vollständig die Haftung ausschließen.
+  > Unser Stil klingt so: „[Beispiel A]" und „[Beispiel B]". Kurze Sätze, direkter Ton, ein leichter Augenzwinkern. Schreib einen dritten Post über unsere neue Notiz-App – kostenlos, keine Anmeldung nötig. Max. 60 Wörter, Du-Form, kein Emoji.

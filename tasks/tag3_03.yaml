@@ -1,25 +1,17 @@
-title: GPL vs. MIT im Unternehmen
-difficulty: 2
+title: Schwacher Prompt aufwerten
+difficulty: 1
 question: |
-  Das Start-up „CodeFlow" entwickelt eine kommerzielle Web-App und will Open-Source-Bibliotheken verwenden.
+  Dieser Prompt ist zu vage:
   
-  Bibliothek A ist unter **MIT** lizenziert.  
-  Bibliothek B ist unter **GPL v3** lizenziert.
+  > „Schreib einen Text über unsere App."
   
-  Das Unternehmen möchte den eigenen Quellcode **nicht veröffentlichen**.
-  
-  **Aufgaben:**
-  1. Welche Bibliothek darf CodeFlow verwenden, ohne den eigenen Code zu veröffentlichen?
-  2. Erkläre, warum die andere Bibliothek ein Problem wäre.
-  3. Was wäre eine Alternative, wenn sie unbedingt GPL-Code nutzen wollen?
+  Verbessere ihn, indem du mindestens **drei der vier RCFT-Bausteine** ergänzt. Du kannst dir das Produkt frei ausdenken.
 tip: |
-  GPL hat Copyleft: Was GPL-Code enthält und weitergegeben wird, muss selbst GPL sein. MIT hat kein Copyleft.
+  R = Rolle der KI, C = Kontext/Fakten, F = Format des Ergebnisses, T = konkrete Aufgabe. Du musst nicht alle vier nehmen – aber je mehr, desto besser das Ergebnis.
 solution: |
-  **1.** CodeFlow darf **Bibliothek A (MIT)** uneingeschränkt verwenden, auch in proprietärer Software.
+  Beispiel-Verbesserung:
   
-  **2.** Bibliothek B (GPL v3) wäre ein Problem: Das Copyleft-Prinzip der GPL verlangt, dass Software, die GPL-Komponenten enthält und verteilt wird, ebenfalls unter der GPL steht. Das würde bedeuten, CodeFlow müsste ihren gesamten Quellcode veröffentlichen – inakzeptabel für ein kommerzielles Produkt.
-  
-  **3. Alternativen bei GPL:**
-  - Eine kommerzielle Lizenz beim Hersteller kaufen (viele GPL-Projekte bieten Dual-Licensing an)
-  - Eine alternative Bibliothek mit MIT- oder Apache-Lizenz suchen
-  - Bei LGPL (Lesser GPL): Bibliotheken dürfen oft auch in proprietäre Software eingebunden werden
+  > **R:** Du bist Texter für ein Tech-Startup.  
+  > **C:** Unsere App hilft Studierenden, Lernzeiten besser einzuplanen. Kein Abo, keine Anmeldung nötig.  
+  > **T:** Schreib eine kurze Beschreibung für den App Store.  
+  > **F:** Max. 80 Wörter, Du-Form, ein konkreter Nutzen in der ersten Zeile.

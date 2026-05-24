@@ -1,0 +1,40 @@
+title: Content-Planung von der Idee bis zum Briefing
+difficulty: 4
+question: |
+  **Ausgangslage:** Sie betreuen den Content für eine **nachhaltige Modemarke** (fiktiv oder aus Ihrem Umfeld). Zielgruppe: Frauen 25–40, kaufen bewusst, online-affin. Kanal-Fokus: Instagram und Blog.
+
+  ---
+
+  **Phase 1 – Themenfindung**
+
+  1. Lassen Sie **10 Content-Ideen** für den nächsten Monat generieren (Titel + 1 Satz + Format).
+  2. Wählen Sie **3 Ideen** und begründen Sie die Auswahl intern (nicht als Text – Entscheidung reicht).
+  3. Entwickeln Sie für jede der 3 Ideen **einen inhaltlichen Winkel** (je 1 Satz Differenzierung).
+
+  ---
+
+  **Phase 2 – Content-Kalender**
+
+  4. Erstellen Sie einen **4-Wochen-Kalender** (3 Posts/Woche): Datum, Thema, Format, 1-Satz-Beschreibung.
+  5. Markieren Sie **2 Slots**, die besonders aufwändig sind (Reel, Karussell) – und formulieren Sie dafür erweiterte Prompts.
+
+  ---
+
+  **Phase 3 – Briefings**
+
+  6. Wählen Sie **2 Kalender-Einträge** und lassen Sie für jeden ein **Redaktionsbriefing** erstellen:
+     Ziel, Zielgruppe, Kernbotschaft, Ton, Länge, No-Gos, CTA.
+  7. Ergänzen Sie fehlende Briefing-Felder per Folgeprompt.
+
+  ---
+
+  **Phase 4 – Umsetzung**
+
+  8. Schreiben Sie für **einen** der beiden Einträge den **vollständigen Content** (Caption oder Blog-Einleitung, je nach Format).
+  9. Finalisieren Sie mit einem Folgeprompt (Länge, Ton, Hook).
+
+  **Deliverables:** Content-Kalender (4 Wochen), 2 Briefings, 1 fertiger Text.
+tip: |
+  Diese Übung simuliert den realen Planungsprozess: Idee → Kalender → Briefing → Text. Nicht alles in einem Prompt.
+solution: |
+  Gutes Briefing enthält: Ziel, Zielgruppe, Kernbotschaft, Ton, Format/Länge, No-Gos, CTA. Kalender-Einträge sollten Formate abwechseln.

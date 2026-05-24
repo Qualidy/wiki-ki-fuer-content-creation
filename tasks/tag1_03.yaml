@@ -1,16 +1,25 @@
-title: OEM-Lizenz übertragen?
-difficulty: 2
+title: Vager vs. präziser Prompt
+difficulty: 3
 question: |
-  Ein Mitarbeiter arbeitet seit 3 Jahren mit einem Firmen-Laptop, auf dem Windows mit einer OEM-Lizenz vorinstalliert ist.
-  
-  Der Laptop hat einen Defekt und wird verschrottet. Der IT-Administrator überlegt, die Windows-Lizenz auf einen neuen PC zu übertragen, um Kosten zu sparen.
-  
-  **Frage:** Ist das rechtlich zulässig? Begründe deine Antwort.
-  
-  **Bonusfrage:** Welche Alternative hätte das Unternehmen, wenn es Lizenzen flexibel zwischen Geräten verschieben möchte?
+  Arbeite in **Copilot Chat** mit demselben fiktiven Produkt (z. B. eine App, ein Snack, ein B2B-Tool):
+
+  **Schritt 1 – vager Prompt:**
+  > Schreib einen Text über unser neues Produkt.
+
+  **Schritt 2 – präziser Prompt:**
+  Formuliere einen Prompt mit mindestens: Produktbeschreibung, Zielgruppe, Kanal (z. B. LinkedIn), Ton, Längenvorgabe, mindestens ein No-Go.
+
+  **Schritt 3 – Feinschliff:**
+  Nimm das Ergebnis aus Schritt 2 und verbessere es mit **einem Folgeprompt** (z. B. Hook schärfen, kürzen, CTA ergänzen).
+
+  **Deliverable:** der präzise Prompt aus Schritt 2 und der finale Text aus Schritt 3.
 tip: |
-  OEM-Lizenzen sind an die Lebensdauer der Hardware gebunden. Was passiert mit der Lizenz, wenn die Hardware nicht mehr existiert?
+  Der Unterschied zwischen Schritt 1 und 2 zeigt, warum präzise Prompts bessere Ergebnisse liefern. Schritt 3 ist der normale Arbeitsablauf nach dem ersten Entwurf.
 solution: |
-  **Nein**, das ist nicht zulässig. Eine OEM-Lizenz ist untrennbar an die ursprüngliche Hardware gebunden. Wenn der Laptop verschrottet wird, erlischt die Lizenz automatisch. Sie darf nicht auf einen anderen PC übertragen werden.
-  
-  **Alternative:** Das Unternehmen sollte für solche Fälle auf **Volumenlizenzen** setzen. Diese sind nicht gerätegebunden und können bei Bedarf auf andere Geräte übertragen werden.
+  Beispiel präziser Prompt:
+
+  > Du bist Texter für eine Zeiterfassungs-App für Freelancer (mobil, kostenlos). Schreib einen LinkedIn-Post. Zielgruppe: Selbstständige mit wenig Zeit. Max. 800 Zeichen, Sie-Form, sachlich. No-Go: keine erfundenen Statistiken, keine Superlative. Hook in der ersten Zeile, CTA am Ende.
+
+  Beispiel-Folgeprompt:
+
+  > Formuliere den Hook konkreter. Kein Buzzword. CTA: „Jetzt testen."

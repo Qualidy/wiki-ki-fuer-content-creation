@@ -1,22 +1,15 @@
-title: Linux und das Copyleft-Prinzip
+title: RCFT-Analyse
 difficulty: 2
 question: |
-  Der Linux-Kernel ist unter der **GPL v2** lizenziert. Unternehmen wie Google (Android), Red Hat und viele andere bauen Produkte auf Basis von Linux.
+  Analysiere diesen Prompt und benenne, welcher Teil **R**, **C**, **F** oder **T** ist. Was fehlt noch?
   
-  **Fragen:**
-  1. Darf Google den Linux-Kernel in Android einsetzen? Unter welchen Bedingungen?
-  2. Warum musste Google den Kernel-Code für Android veröffentlichen, aber nicht den Rest von Android?
-  3. Ein Hersteller von Industrierobotern möchte Linux für seine Firmware nutzen, aber den Firmware-Quellcode geheim halten. Ist das möglich? Begründe.
+  > „Du bist Social-Media-Redakteur für eine Fitness-Marke. Schreib einen Instagram-Post über unseren neuen Proteinriegel. Max. 100 Wörter, Du-Form, 3 Hashtags."
 tip: |
-  GPL gilt für den GPL-lizenzierten Teil. Wenn du GPL-Code veränderst und weitergibst, muss dieser Teil GPL bleiben – aber nicht unbedingt der gesamte umgebende Code, je nach Einbindung.
+  Schau genau: Sind alle Fakten da, die die KI braucht? Was weiß sie noch nicht?
 solution: |
-  **1.** Ja, Google darf den Linux-Kernel in Android verwenden. Da sie den Kernel verändern und verteilen, müssen sie ihre **Kernel-Änderungen unter der GPL v2 veröffentlichen** – was Google auch tut.
+  - **R:** „Du bist Social-Media-Redakteur für eine Fitness-Marke" ✓
+  - **C:** Fehlt fast vollständig! Was ist besonders an dem Riegel? Zielgruppe? No-Gos?
+  - **F:** Max. 100 Wörter, Du-Form, 3 Hashtags ✓
+  - **T:** Instagram-Post über Proteinriegel ✓
   
-  **2.** GPL gilt für den GPL-lizenzierten Code selbst. Der Android-Kernel ist modifizierter Linux-Code → GPL-pflichtig. Der Rest von Android (Java-Framework, Apps usw.) ist separat und liegt unter anderen Lizenzen (Apache 2.0). Eine Vermischung auf Bibliotheksebene ist der entscheidende Faktor.
-  
-  **3.** Das ist **nicht ohne Weiteres möglich**. Wenn der Hersteller den Linux-Kernel modifiziert und die Firmware verteilt (z. B. bei Kunden installiert), muss er seine Kernel-Änderungen unter der GPL veröffentlichen.
-  
-  Optionen:
-  - Nur unveränderten Kernel nutzen + eigene Software als separates Modul (rechtlich komplex)
-  - Auf ein eingebettetes OS ohne GPL setzen (z. B. VxWorks, QNX – aber kostenpflichtig)
-  - Kernel-Code veröffentlichen, proprietäre Applikationsschicht geheim halten
+  Verbesserungsvorschlag für C: „Der Riegel heißt PowerBar Oat, hat 20 g Protein, kein Zucker, ist für Sportler nach dem Training. No-Go: keine Gesundheitsversprechen."

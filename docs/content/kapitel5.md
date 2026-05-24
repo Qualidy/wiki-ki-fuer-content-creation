@@ -1,4 +1,4 @@
-# Kapitel 5 – Fallstudien & Abschluss
+# Kapitel 5 – Was ist ein guter Prompt?
 
 <div class="kurs-progress">
   <div class="step done"></div>
@@ -6,110 +6,91 @@
   <div class="step done"></div>
   <div class="step done"></div>
   <div class="step active"></div>
+  <div class="step"></div>
+  <div class="step"></div>
+  <div class="step"></div>
 </div>
 
 <div class="lernziele" markdown>
-<h3>Was du heute lernst</h3>
+<h3>Was du in diesem Kapitel lernst</h3>
 
-- Alle Lizenzmodelle und Rechtsgrundlagen in komplexen Praxisszenarien anwenden
-- Einen Software-Beschaffungsprozess unter Berücksichtigung der Lizenzierung planen
-- Compliance-Anforderungen im IT-Alltag einschätzen
-- Den gesamten Kursinhalt in einer Abschlussaufgabe verknüpfen
+- Was einen guten von einem schwachen Prompt unterscheidet
+- Das **RCFT-Modell** als strukturiertes Hilfsmittel für Content-Prompts
+- Wie das Modell flexibel eingesetzt wird – situationsabhängig, nicht schematisch
 </div>
 
 ---
 
-## 5.1 Software-Beschaffung in Unternehmen
+## So gehst du vor
 
-Wenn ein Unternehmen Software kaufen will, ist Lizenzierung nur ein Teil des Prozesses. Der komplette Beschaffungsprozess sieht typischerweise so aus:
-
-```mermaid
-flowchart TD
-    A[Bedarf ermitteln\nWer braucht was?] --> B[Lizenzmodell wählen\nOEM, Volumen, SaaS, ...?]
-    B --> C[EULA / Vertrag prüfen\nRechtliche Anforderungen]
-    C --> D{DSGVO-konform?}
-    D -->|Nein| E[Anbieter wechseln\noder nachverhandeln]
-    D -->|Ja| F[Anzahl berechnen\nCALs, User, Geräte]
-    F --> G[Kaufen / Bestellen]
-    G --> H[Aktivierung\nEinzelkey / KMS / Cloud]
-    H --> I[Dokumentation\nLizenzverwaltung]
-    I --> J[Compliance prüfen\nRegelm. Audit]
-```
-
-### Lizenzverwaltung
-
-Ein häufig unterschätzter Punkt: Lizenzen müssen **dokumentiert** und **verwaltet** werden. In der Praxis nutzen Unternehmen dafür:
-
-- Einfache Tabellen (Excel / LibreOffice Calc)
-- Spezialisierte Software wie **OPSI**, **Snipe-IT** oder **Microsoft VLSC**
-- Teil des **IT-Asset-Managements (ITAM)**
+1. Lies die Kapitelinhalte und probiere die Beispiele in Copilot aus.
+2. Bearbeite die **Kurzübungen** der Reihe nach – von Grundlagen bis Experte.
+3. Arbeite die **Workshop-Aufgabe** durch. Sie vertieft das Gelernte an einem zusammenhängenden Szenario.
 
 ---
 
-## 5.2 Compliance und Lizenz-Audits
+## 5.1 Was ist ein Prompt?
 
-Ein **Lizenz-Audit** ist eine Prüfung, ob ein Unternehmen seine Software ordnungsgemäß lizenziert hat. Hersteller wie Microsoft, Adobe oder SAP können solche Audits durchführen oder ankündigen.
+Als Prompt bezeichnet man die Eingabe, die an eine KI gerichtet wird. Jeder Text, der in Copilot oder ChatGPT eingegeben wird, ist ein Prompt – ob als Frage, Auftrag oder Stichpunkt.
 
-!!! warning "Was passiert bei Unter-Lizenzierung?"
-    Wenn ein Unternehmen weniger Lizenzen hat als tatsächlich genutzte Installationen, spricht man von **Unter-Lizenzierung**. Die Konsequenzen:
-    
-    - Sofortige Nachzahlung für alle fehlenden Lizenzen
-    - Strafzuschläge (oft 20–50% auf den Listenpreis)
-    - Vertragsstrafen
-    - Im Extremfall: Klage wegen Urheberrechtsverletzung
+Die Qualität des Prompts bestimmt maßgeblich die Qualität des Ergebnisses. Beide folgenden Anfragen haben dasselbe Ziel – liefern aber sehr unterschiedliche Ergebnisse:
 
-### Typische Audit-Fallen
+❌ „Kannst du etwas zu unserem neuen Produkt schreiben?"
 
-| Falle | Problem |
-|---|---|
-| OEM-Lizenzen auf neuem PC | Lizenz erlischt, neue Hardware braucht neue Lizenz |
-| Mitarbeiter ausgeschieden | NUL muss deaktiviert werden, nicht weiter genutzt |
-| Testversion als produktiv genutzt | Testlizenzen haben oft ein Ablaufdatum |
-| Cloud-Dienste ohne Audit | SaaS-Nutzung ohne Nachverfolgung aktiver User |
+✅ „Schreib eine kurze Einleitung für unseren Newsletter. Thema: unser neues Treueprogramm. Zielgruppe: Stammkunden. Ton: freundlich und persönlich. Maximal 80 Wörter."
+
+Der Unterschied liegt nicht im Aufwand, sondern in der Präzision der Anweisung.
 
 ---
 
-## 5.3 Gesamtübersicht aller Lizenzmodelle
+## 5.2 Warum fehlende Vorgaben zu generischen Ergebnissen führen
 
-| Modell | Bindung | Typisch bei | Übertragbar |
-|---|---|---|---|
-| OEM | Hardware | PC-Kauf | Nein |
-| Volumenlizenz | Unternehmen | Größere Firmen | Ja (intern) |
-| User-Lizenz (NUL) | Person | ERP, Adobe, MS365 | Nein (ohne Prozess) |
-| Gerätelizenz | Gerät | Shared Terminals | Nein |
-| KMS-Aktivierung | Firmennetz | Windows Enterprise | – |
-| User-CAL | Person | Windows Server Zugriff | Nein |
-| Device-CAL | Gerät | Shared Server Access | Nein |
-| GNU GPL | – | Open Source, Entwicklung | – (Copyleft) |
-| MIT | – | Open Source, permissiv | – |
-| Creative Commons | – | Medien, Texte, Daten | – |
+Sprachmodelle füllen unspezifische Prompts mit statistisch wahrscheinlichem Material. Fehlt die Zielgruppe, wird für ein allgemeines Publikum geschrieben. Fehlt der Ton, wird ein neutraler Mittelweg gewählt. Fehlt das Format, erfindet das Modell eine Struktur.
+
+Das Ergebnis ist formal korrekt, inhaltlich aber nichtssagend – weil keine konkreten Vorgaben vorhanden waren, auf die sich die KI stützen konnte.
 
 ---
 
-## Aufgaben – Kapitel 5
+## 5.3 Das RCFT-Modell
 
-{{ task(file="tasks/tag5_01.yaml") }}
+Das RCFT-Modell bietet eine strukturierte Orientierung beim Aufbau von Content-Prompts. Es besteht aus vier Elementen:
 
-{{ task(file="tasks/tag5_02.yaml") }}
+| Kürzel | Bedeutung | Leitfrage |
+|:---:|---|---|
+| **R** | Rolle | Welche Perspektive soll die KI einnehmen? |
+| **C** | Kontext | Welche inhaltlichen Informationen braucht die KI? |
+| **F** | Format | Wie soll das Ergebnis aussehen? |
+| **T** | Task | Was soll die KI konkret tun? |
 
-{{ task(file="tasks/tag5_03.yaml") }}
+### Beispiel – alle vier Elemente
 
-{{ task(file="tasks/tag5_04.yaml") }}
+> **R:** Du bist Redakteur für ein nachhaltig orientiertes Modeunternehmen.  
+> **C:** Es wird eine neue Linie aus recyceltem Material eingeführt. Zielgruppe: Frauen 25–40, kaufen lieber hochwertig als viel. Verboten: Begriffe wie „günstig" oder Preisangaben.  
+> **T:** Schreib eine Instagram-Caption für den Produkt-Launch.  
+> **F:** Maximal 120 Wörter. Du-Form. CTA am Ende: „Jetzt entdecken." Bis zu 5 Hashtags.
 
-{{ task(file="tasks/tag5_05.yaml") }}
+Ein solcher Prompt lässt sich schnell formulieren – das Ergebnis ist deutlich präziser als bei einer kurzen Anweisung ohne Kontext.
 
 ---
 
-## Gut gemacht!
+## 5.4 Flexible Anwendung
 
-Du hast den Kurs **M1.9 – Lizenzierungsarten** abgeschlossen.
+Das RCFT-Modell ist ein Hilfsmittel, kein Pflichtformular. Nicht jede Aufgabe erfordert alle vier Elemente. Manchmal reichen Zielgruppe und Format. Manchmal ist die Rolle offensichtlich und muss nicht formuliert werden.
 
-<div class="lernziele" markdown>
-<h3>Was du jetzt kannst</h3>
+Mit zunehmender Erfahrung entwickelt sich ein Gespür dafür, welche Bestandteile für welche Aufgabe tatsächlich relevant sind.
 
-- OEM, Volumen, NUL, KMS und CAL unterscheiden und situationsgerecht empfehlen
-- Open-Source-Lizenzen (GPL, MIT, CC) erklären und auf Code-Projekte anwenden
-- Ein EULA kritisch lesen und rechtliche Risiken einschätzen
-- Urheberrecht, Markenrecht und Copyright voneinander abgrenzen
-- Einen Lizenzierungs-Beschaffungsprozess strukturiert planen
-</div>
+---
+
+## Kurzübungen
+
+{{ task(file="tasks/tag3_03.yaml") }}
+
+{{ task(file="tasks/tag3_04.yaml") }}
+
+{{ task(file="tasks/tag3_05.yaml") }}
+
+---
+
+## Workshop
+
+{{ task(file="tasks/workshop_k5.yaml") }}

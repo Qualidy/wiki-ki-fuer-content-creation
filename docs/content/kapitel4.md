@@ -1,4 +1,4 @@
-# Kapitel 4 – Rechtliche Grundlagen
+# Kapitel 4 – ChatGPT im Überblick
 
 <div class="kurs-progress">
   <div class="step done"></div>
@@ -6,141 +6,75 @@
   <div class="step done"></div>
   <div class="step active"></div>
   <div class="step"></div>
+  <div class="step"></div>
+  <div class="step"></div>
+  <div class="step"></div>
 </div>
 
 <div class="lernziele" markdown>
-<h3>Was du heute lernst</h3>
+<h3>Was du in diesem Kapitel lernst</h3>
 
-- Das Urheberrecht (UrhG) verstehen und auf Software anwenden
-- Den Unterschied zwischen Urheberrecht und Markenrecht erklären
-- Das Copyright-Symbol einordnen und internationale Unterschiede kennen
-- Ein EULA lesen, verstehen und kritische Klauseln erkennen
+- Was ChatGPT ist und wie es sich von Copilot unterscheidet
+- Warum der Kurs primär mit **Copilot** arbeitet
+- Wie Prompt-Techniken aus Copilot auf ChatGPT übertragbar sind – und umgekehrt
 </div>
 
 ---
 
-## 4.1 Urheberrecht
+## So gehst du vor
 
-Das **Urheberrecht** schützt **geistige Schöpfungen** – also das, was ein Mensch kreativ erschaffen hat. In Deutschland ist es im **Urheberrechtsgesetz (UrhG)** geregelt.
-
-### Was schützt das Urheberrecht?
-
-- Literarische Werke (Romane, Texte, Gedichte)
-- Musik
-- Bilder, Fotos, Grafiken
-- **Software / Computerprogramme** (§ 69a UrhG)
-- Datenbanken (§ 87a UrhG)
-
-!!! info "Software ist automatisch geschützt"
-    In Deutschland entsteht das Urheberrecht **automatisch** mit der Schöpfung. Es muss **nicht** beantragt oder eingetragen werden. Sobald du Code schreibst, bist du der Urheber – ohne jegliche Formalitäten.
-
-### Wichtige Grundsätze
-
-- Das Urheberrecht liegt immer beim **Schöpfer** (Entwickler, Autor, Künstler)
-- Es ist **nicht übertragbar** – man kann nur Nutzungsrechte (Lizenzen) vergeben
-- Das Urheberrecht gilt in Deutschland 70 Jahre nach dem Tod des Urhebers
-
-### Urheberrecht bei Arbeitsaufträgen
-
-!!! warning "Ausnahme: Angestelltenverhältnis"
-    Wenn ein Arbeitnehmer im Rahmen seines Arbeitsverhältnisses Software entwickelt, gehen die **ausschließlichen Nutzungsrechte** automatisch auf den **Arbeitgeber** über (§ 69b UrhG). Das Urheberrecht selbst bleibt aber beim Entwickler.
+1. Lies die Kapitelinhalte und probiere die Beispiele in Copilot aus.
+2. Bearbeite die **Kurzübungen** der Reihe nach – von Grundlagen bis Experte.
+3. Arbeite die **Workshop-Aufgabe** durch. Sie vertieft das Gelernte an einem zusammenhängenden Szenario.
 
 ---
 
-## 4.2 Markenrecht
+## 4.1 Einordnung
 
-Das **Markenrecht** schützt **Zeichen**, die zur Unterscheidung von Waren und Dienstleistungen dienen. Es schützt also keine Werke, sondern **Identität und Herkunft**.
+**ChatGPT** ist ein eigenständiger KI-Chat von OpenAI, erreichbar unter [chatgpt.com](https://chatgpt.com). Funktional ähnelt er Copilot Chat: natürlichsprachliche Eingabe, Textausgabe, Folgeprompts innerhalb eines Gesprächs.
 
-### Was ist eine Marke?
+Im Kurs wird ChatGPT **theoretisch eingeordnet**, nicht als Hauptarbeitswerkzeug. Die praktischen Übungen und Aufgaben sind auf **Copilot** ausgelegt – weil Copilot das bereitgestellte Tool für die Content-Produktion im Microsoft-365-Umfeld ist.
 
-Eine Marke kann sein:
-- Ein **Name** (z. B. „Microsoft", „Apple")
-- Ein **Logo** (z. B. das Apple-Logo)
-- Ein **Schriftzug** in besonderer Gestaltung
-- Eine **Farbe** oder ein **Klang** (in Ausnahmefällen)
+Die Prompt-Logik ist in beiden Tools identisch: Rolle, Kontext, Format, Aufgabe, No-Gos. Was in Copilot funktioniert, lässt sich grundsätzlich auch in ChatGPT anwenden.
 
-### Unterschied zum Urheberrecht
+!!! info "Datenschutz bei ChatGPT"
+    ChatGPT läuft außerhalb der Microsoft-365-Umgebung. Für private Nutzung oder Tests ohne Firmendaten geeignet – nicht für vertrauliche Kunden- oder Unternehmensinhalte.
 
-| | Urheberrecht | Markenrecht |
+---
+
+## 4.2 Copilot und ChatGPT im Vergleich
+
+| Aspekt | Copilot | ChatGPT |
 |---|---|---|
-| Schützt | Werke (Texte, Code, Bilder) | Zeichen (Namen, Logos) |
-| Entsteht | Automatisch | Durch Eintragung (oder Benutzung) |
-| Läuft ab | 70 Jahre nach Tod | Verlängerbar (alle 10 Jahre) |
-| Zweck | Schöpfer schützen | Kunden vor Verwechslung schützen |
+| **Zugang** | copilot.microsoft.com, M365-Umfeld | chatgpt.com |
+| **Firmendaten** | Work-Modus mit freigegebenen M365-Inhalten | Kein Zugriff auf Firmendaten |
+| **Einsatz im Kurs** | Primäres Arbeitswerkzeug | Kurze theoretische Einordnung |
+| **Prompt-Struktur** | RCFT, Folgeprompts, No-Gos | Identische Prinzipien |
 
-### Relevanz im IT-Alltag
-
-Wenn du eine App entwickelst und ihr einen Namen gibst, der einem eingetragenen Markennamen ähnelt, droht eine **Abmahnung** – unabhängig davon, ob du den Code selbst geschrieben hast.
+Für die Content-Arbeit im Kurs gilt: **Copilot ist Standard.** ChatGPT ist eine Alternative außerhalb der M365-Umgebung – relevant für Marktüberblick und Transferwissen, nicht für die täglichen Übungen.
 
 ---
 
-## 4.3 Copyright
+## 4.3 Was ChatGPT zusätzlich bietet
 
-**Copyright** ist das internationale Pendant zum deutschen Urheberrecht. Das bekannte Symbol ist **©**.
+Zwei Funktionen von ChatGPT sind erwähnenswert, haben im Kurs aber keine zentrale Rolle:
 
-Das © bedeutet: „Dieses Werk ist urheberrechtlich geschützt."
+**Custom Instructions:** Unter dem Profilbild lässt sich ein dauerhaftes Hintergrundprofil hinterlegen (Sprache, Ton, No-Gos). In Copilot werden diese Vorgaben stattdessen direkt im Prompt oder als wiederverwendbarer Persona-Block formuliert.
 
-!!! info "Wichtig"
-    In Deutschland ist das © **nicht notwendig**, um Schutz zu genießen – er entsteht automatisch. Das Symbol ist trotzdem üblich, weil es Nutzern signalisiert, dass der Urheber sein Recht beansprucht.
-
-### USA vs. Deutschland
-
-| | USA | Deutschland |
-|---|---|---|
-| System | Copyright | Urheberrecht (UrhG) |
-| Entsteht | Automatisch (seit 1989) | Automatisch |
-| Übertragbar | Ja (Copyright assignable) | Nein (nur Nutzungsrechte) |
-| Schutzdauer | 70 Jahre nach Tod | 70 Jahre nach Tod |
-
-Der größte Unterschied: In den USA kann das Copyright vollständig auf eine andere Person oder ein Unternehmen übertragen werden. In Deutschland ist das Urheberrecht **unübertragbar** – nur Nutzungsrechte können vergeben werden.
+**Anhänge:** ChatGPT kann Dateien hochladen und auswerten. Copilot bietet vergleichbare Funktionen im Work-Modus über angebundene M365-Inhalte.
 
 ---
 
-## 4.4 EULA – End User License Agreement
+## Kurzübungen
 
-Ein **EULA** (End User License Agreement) ist der Lizenzvertrag, den du akzeptierst, wenn du Software installierst oder nutzt. Das Kleingedruckte, das die meisten ohne Lesen durchklicken.
+{{ task(file="tasks/tag2_05.yaml") }}
 
-!!! warning "Rechtliche Bindung"
-    Ein EULA ist ein **rechtlich bindender Vertrag**. Was drin steht, gilt – auch wenn man ihn nicht gelesen hat. Allerdings sind sittenwidrige oder überraschende Klauseln in Deutschland oft unwirksam (AGB-Recht).
+{{ task(file="tasks/tag3_01.yaml") }}
 
-### Typische Inhalte eines EULAs
-
-| Abschnitt | Inhalt |
-|---|---|
-| Lizenzumfang | Wie viele Geräte, welche Nutzungsart |
-| Verbote | Reverse Engineering, Weitergabe, Vermietung |
-| Datenerhebung | Welche Nutzerdaten werden gesammelt |
-| Haftungsausschluss | Hersteller haftet nicht für Schäden durch die Software |
-| Kündigung | Wann und wie die Lizenz endet |
-| Geltendes Recht | Welches Recht (welches Land) gilt |
-
-### Praxisbeispiel: Kritische EULA-Klauseln
-
-**Klausel A:**  
-*„The software may collect usage data to improve user experience."*
-
-→ Bedeutet: Die Software sammelt Daten. Wichtig für DSGVO-Compliance im Unternehmen!
-
-**Klausel B:**  
-*„You may not install the software on more than one device at a time."*
-
-→ Bedeutet: Auch wenn du zwei PCs hast, darf die Software nur auf einem gleichzeitig laufen.
-
-**Klausel C:**  
-*„This agreement is governed by the laws of the State of California."*
-
-→ Bedeutet: Bei Rechtsstreitigkeiten gilt kalifornisches Recht – nicht deutsches.
+{{ task(file="tasks/tag3_02.yaml") }}
 
 ---
 
-## Aufgaben – Kapitel 4
+## Workshop
 
-{{ task(file="tasks/tag4_01.yaml") }}
-
-{{ task(file="tasks/tag4_02.yaml") }}
-
-{{ task(file="tasks/tag4_03.yaml") }}
-
-{{ task(file="tasks/tag4_04.yaml") }}
-
-{{ task(file="tasks/tag4_05.yaml") }}
+{{ task(file="tasks/workshop_k4.yaml") }}

@@ -1,0 +1,43 @@
+title: Iterativer Schreibprozess – vom Rohling zum fertigen Post
+difficulty: 4
+question: |
+  **Ausgangstext (von Copilot oder vorgegeben):**
+
+  > „In der heutigen digitalen Arbeitswelt ist Effizienz wichtiger denn je. Unternehmen suchen nach Lösungen, die ihre Prozesse optimieren. Unsere innovative Plattform bietet einzigartige Möglichkeiten, die Zusammenarbeit zu verbessern und die Produktivität zu steigern."
+
+  ---
+
+  **Phase 1 – Analyse**
+
+  1. Markieren Sie im Text: Füllwörter, Floskeln, Superlative, passive Formulierungen.
+  2. Formulieren Sie **drei separate Überarbeitungs-Prompts** (je ein Ziel).
+
+  ---
+
+  **Phase 2 – Schrittweise Überarbeitung**
+
+  3. Prompt 1: Füllwörter und Floskeln entfernen.
+  4. Prompt 2: Auf 50 Wörter kürzen.
+  5. Prompt 3: Aktiver formulieren, konkreter Nutzen.
+  6. Prompt 4: Für **LinkedIn** umschreiben (max. 800 Zeichen, Hook in Zeile 1).
+  7. Prompt 5: **No-Gos** einbauen (keine Superlative, keine erfundenen Zahlen).
+
+  ---
+
+  **Phase 3 – Stil vorgeben**
+
+  8. Zeigen Sie Copilot **zwei Beispiel-Sätze** im gewünschten Stil (selbst formuliert oder aus Ihrer Marke).
+  9. Lassen Sie den LinkedIn-Post **im gezeigten Stil** neu schreiben.
+
+  ---
+
+  **Phase 4 – Abschluss**
+
+  10. Finalisieren Sie den Post mit einem letzten Folgeprompt (CTA, Länge).
+  11. Dokumentieren Sie Ihre **Prompt-Kette** (alle Prompts in Reihenfolge).
+
+  **Deliverables:** finaler LinkedIn-Post, dokumentierte Prompt-Kette (mindestens 5 Schritte).
+tip: |
+  Bewusst vorgeben: Der Starttext ist absichtlich schlecht. Die Übung zeigt den Wert iterativen Promptens.
+solution: |
+  Gute Prompt-Kette: ein Ziel pro Schritt, klarer Fortschritt vom Rohling zum kanalspezifischen Text. Stil-Beispiele in Phase 3 machen großen Unterschied.

@@ -1,22 +1,20 @@
-title: Urheberrecht vs. Markenrecht
-difficulty: 1
+title: No-Gos einbauen
+difficulty: 2
 question: |
-  Entscheide bei jedem Fall, ob es sich um einen Fall für das **Urheberrecht**, das **Markenrecht** oder **beide** handelt. Begründe kurz.
+  Du schreibst für ein Pharmaunternehmen einen Social-Media-Post über ein neues Vitaminpräparat.
   
-  **Fall A:** Ein Programmierer kopiert den Quellcode eines Open-Source-Projekts und gibt ihn als seinen eigenen aus.
+  Relevante No-Gos laut Compliance:
+  - Keine Heilversprechen (z. B. „heilt", „verhindert", „schützt vor Krankheiten")
+  - Keine Prozentangaben ohne Studiennachweis
+  - Keine Nennung von Mitbewerbern
+  - Kein Begriff „klinisch bewiesen" ohne Quelle
   
-  **Fall B:** Ein Entwickler nennt sein neues E-Mail-Programm „Outlook Pro" – sehr ähnlich zu Microsofts „Outlook".
-  
-  **Fall C:** Ein Designer klaut das Logo eines Unternehmens und baut es in seine eigene App ein, ohne Genehmigung.
-  
-  **Fall D:** Jemand verkauft Raubkopien von Microsoft Office auf einem Flohmarkt.
+  Schreib einen vollständigen Prompt inklusive dieser No-Gos. Führe ihn aus und prüfe: Hält sich die KI daran?
 tip: |
-  Urheberrecht schützt kreative Werke (Code, Text, Bilder). Markenrecht schützt Namen und Zeichen, die Unternehmen identifizieren.
+  No-Gos müssen explizit und klar formuliert sein. „Sei vorsichtig mit Aussagen" reicht nicht – schreib konkret, was verboten ist.
 solution: |
-  **Fall A:** Urheberrecht – Das Kopieren und falsche Beanspruchen von Quellcode verletzt das Urheberrecht des ursprünglichen Entwicklers.
+  Beispiel-Prompt:
   
-  **Fall B:** Markenrecht – Der Name „Outlook" ist eine eingetragene Marke von Microsoft. Ein ähnlicher Name kann zur Verwechslung führen → Markenrechtsverletzung.
+  > Du bist Texter für ein Pharmaunternehmen. Schreib einen Instagram-Post (max. 80 Wörter, Du-Form, 3 Hashtags) für ein neues Vitamin-D-Präparat. No-Go: Keine Heilversprechen, keine Prozentangaben ohne Quelle, keine Mitbewerber, kein „klinisch bewiesen". Ton: informativ, sachlich, nicht werblich.
   
-  **Fall C:** Beide – Das Logo ist als kreatives Werk urheberrechtlich geschützt. Gleichzeitig ist es als Marke eingetragen → Verletzung beider Rechte.
-  
-  **Fall D:** Urheberrecht – Das unerlaubte Vervielfältigen und Verkaufen von Software ist eine Urheberrechtsverletzung (auch als „Piraterie" bezeichnet).
+  Ergebnisprüfung: Gibt es noch Formulierungen, die rechtlich heikel sein könnten? → Immer gegenlesen.

@@ -1,19 +1,22 @@
-title: Urheberrecht – Grundlagen prüfen
+title: Kürzen in drei Schritten
 difficulty: 1
 question: |
-  Beantworte die folgenden Fragen zum Urheberrecht:
+  Nimm diesen Text (oder einen eigenen):
   
-  1. Muss ein Softwareentwickler seinen Code irgendwo anmelden, damit er urheberrechtlich geschützt ist?
-  2. Ein Entwickler erstellt im Auftrag seines Arbeitgebers eine Web-App. Wem gehört der Code?
-  3. Wie lange gilt der Urheberrechtsschutz nach dem Tod des Urhebers?
-  4. Kann man ein Urheberrecht verkaufen?
+  > „Wir freuen uns, Ihnen mitteilen zu dürfen, dass unser Unternehmen ab sofort ein neues Produkt anbietet, das speziell für die Bedürfnisse moderner Berufstätiger entwickelt wurde und Ihnen dabei helfen soll, Ihren Alltag effizienter zu gestalten."
+  
+  Führe nacheinander drei Folgeprompts aus:
+  
+  1. „Entferne alle Füllwörter."
+  2. „Kürze auf 25 Wörter."
+  3. „Mach die erste Zeile zu einer Frage."
+  
+  Schreib jeweils das Ergebnis auf und vergleiche.
 tip: |
-  Das Urheberrecht entsteht automatisch. Im Arbeitsrecht gibt es eine wichtige Sonderregel für Software (§ 69b UrhG).
+  Du wirst sehen, wie der Text mit jedem Schritt klarer wird. Das ist der Kern von iterativem Prompting.
 solution: |
-  1. **Nein** – das Urheberrecht entsteht in Deutschland automatisch mit der Schöpfung. Keine Anmeldung, kein Register notwendig.
+  Beispiel-Ergebnisse:
   
-  2. Das **Urheberrecht** bleibt beim Entwickler. Aber: Die **ausschließlichen Nutzungsrechte** gehen automatisch auf den Arbeitgeber über (§ 69b UrhG) – der Arbeitgeber darf den Code also nutzen, verändern und verwerten.
-  
-  3. Das Urheberrecht gilt **70 Jahre** nach dem Tod des Urhebers.
-  
-  4. **Nein** – das Urheberrecht selbst ist in Deutschland **nicht übertragbar**. Man kann nur **Nutzungsrechte** (Lizenzen) vergeben – einfache oder ausschließliche Nutzungsrechte.
+  1. „Wir freuen uns, Ihnen unser neues Produkt vorzustellen – entwickelt für Berufstätige, die ihren Alltag effizienter gestalten wollen."
+  2. „Unser neues Produkt hilft Berufstätigen, effizienter zu arbeiten."
+  3. „Wollen Sie Ihren Arbeitsalltag effizienter gestalten? Unser neues Produkt macht's möglich."

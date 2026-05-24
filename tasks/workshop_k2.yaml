@@ -1,0 +1,47 @@
+title: Produktseite Schritt für Schritt
+difficulty: 4
+question: |
+  **Ausgangslage:** Die App **TimeTrack** erfasst Arbeitszeiten für Freelancer (mobil, kostenlos, ohne Anmeldung). Zielgruppe: Selbstständige mit 1–5 Projekten parallel. Ton: direkt, sachlich, Sie-Form.
+
+  ---
+
+  **Phase 1 – Struktur**
+
+  1. Geben Sie Copilot diese Stichpunkte und lassen Sie eine **Seitenstruktur** erstellen (Überschriften + je 1 Satz Inhalt):
+     - Problem: Zeiterfassung kostet Zeit
+     - Lösung: TimeTrack in 3 Schritten
+     - Vorteile: mobil, kostenlos, ohne Anmeldung
+     - Zielgruppe: Freelancer
+
+  2. Prüfen Sie die Struktur und passen Sie per Folgeprompt an.
+
+  ---
+
+  **Phase 2 – Abschnitte schreiben**
+
+  3. Schreiben Sie **Abschnitt 1 – Einleitung** (ca. 80 Wörter).
+  4. Schreiben Sie **Abschnitt 2 – Vorteile** (ca. 120 Wörter, drei konkrete Nutzen).
+  5. Schreiben Sie **Abschnitt 3 – Call-to-Action** (ca. 40 Wörter).
+
+  Jeder Abschnitt = eigener Prompt. Nicht alles auf einmal.
+
+  ---
+
+  **Phase 3 – Überarbeitung**
+
+  6. Kopieren Sie alle drei Abschnitte in den Chat und lassen Sie den **Ton vereinheitlichen**.
+  7. Kürzen Sie die Gesamtfassung auf **max. 250 Wörter**, Kernaussagen erhalten.
+  8. Formulieren Sie **drei alternative Headlines** für die Seite.
+
+  ---
+
+  **Phase 4 – Abschluss**
+
+  9. Wählen Sie die stärkste Headline und setzen Sie sie als Einstieg.
+  10. Prüfen Sie: Fakten korrekt? Keine erfundenen Features? Ton konsistent?
+
+  **Deliverables:** Seitenstruktur, finaler Seitentext (ca. 250 Wörter), gewählte Headline.
+tip: |
+  Der Kern dieser Übung: Schrittweise statt alles in einem Prompt. Jede Phase baut auf der vorherigen auf.
+solution: |
+  Typische Fehler: zu langer Erstprompt, fehlende Zielgruppe, Superlative wie „revolutionär". Gutes Ergebnis: klare Struktur, konkrete Nutzen, einheitlicher Ton.

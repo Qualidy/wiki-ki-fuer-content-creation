@@ -1,4 +1,4 @@
-# Kapitel 3 – Open Source Lizenzen
+# Kapitel 3 – Copilot für Ideen, Planung und Konzepte
 
 <div class="kurs-progress">
   <div class="step done"></div>
@@ -6,144 +6,107 @@
   <div class="step active"></div>
   <div class="step"></div>
   <div class="step"></div>
+  <div class="step"></div>
+  <div class="step"></div>
+  <div class="step"></div>
 </div>
 
 <div class="lernziele" markdown>
-<h3>Was du heute lernst</h3>
+<h3>Was du in diesem Kapitel lernst</h3>
 
-- Verstehen, was „Open Source" bedeutet – und was es nicht bedeutet
-- GNU GPL, LGPL und AGPL unterscheiden (Copyleft-Prinzip)
-- Die MIT-Lizenz als permissives Modell erklären
-- Creative Commons Varianten kennen und anwenden
-- Die Unterschiede zwischen Open-Source-Lizenzen auf Praxisfälle übertragen
+- Copilot in der konzeptionellen Phase einsetzen – vor dem eigentlichen Schreiben
+- Themenideen entwickeln, Winkel erarbeiten und Briefings strukturieren
+- Den Unterschied zwischen **Work** und **Web** in Copilot Chat kennen
 </div>
 
 ---
 
-## 3.1 Was ist Open Source?
+## So gehst du vor
 
-„Open Source" bedeutet wörtlich: **offener Quellcode**. Das heißt, der Programmiercode ist öffentlich einsehbar. Aber Open Source bedeutet **nicht** automatisch „kostenlos" oder „darf man alles damit machen".
-
-!!! info "Wichtige Unterscheidung"
-    **Freeware** = kostenlos nutzbar, Quellcode meist nicht einsehbar  
-    **Open Source** = Quellcode einsehbar, darf verändert werden – aber **unter bestimmten Bedingungen**  
-    **Public Domain** = keinerlei Einschränkungen, vollständig frei
-
-Die genauen Bedingungen legt die **Lizenz** fest. Verschiedene Open-Source-Lizenzen haben unterschiedliche Regeln.
-
-### Die vier Freiheiten (Free Software Foundation)
-
-1. Die Software für jeden Zweck **nutzen**
-2. Den Quellcode **studieren** und verstehen
-3. Die Software **weitergeben**
-4. Die Software **verändern** und verbesserte Versionen weitergeben
+1. Lies die Kapitelinhalte und probiere die Beispiele in Copilot aus.
+2. Bearbeite die **Kurzübungen** der Reihe nach – von Grundlagen bis Experte.
+3. Arbeite die **Workshop-Aufgabe** durch. Sie vertieft das Gelernte an einem zusammenhängenden Szenario.
 
 ---
 
-## 3.2 GNU GPL – Copyleft-Prinzip
+## 3.1 Copilot in der Konzeptionsphase
 
-**GNU GPL** steht für **GNU General Public License**. Sie ist die bekannteste Open-Source-Lizenz mit einem starken **Copyleft**-Prinzip.
+Der Einsatz von Copilot muss nicht erst beim Verfassen eines Textes beginnen. Copilot kann bereits in der Vorbereitungsphase eingesetzt werden – wenn noch keine konkrete Schreibaufgabe vorliegt, aber inhaltliche Orientierung gefragt ist:
 
-### Was bedeutet Copyleft?
+- Welche Themen sind für die Zielgruppe aktuell relevant?
+- Aus welchem Blickwinkel lässt sich ein Thema angehbar und differenziert behandeln?
+- Welche Bestandteile gehören in ein vollständiges Briefing?
+- Wie könnte ein Content-Kalender für den nächsten Monat aussehen?
 
-Copyleft bedeutet: Wenn du Software unter der GPL nimmst, veränderst und weitergibst, **muss deine Weiterentwicklung ebenfalls unter der GPL stehen**. Der offene Charakter „vererbt" sich.
-
-!!! warning "Wichtig für Unternehmen"
-    Wenn du GPL-Software in ein kommerzielles Produkt einbaust, das du verkaufst, musst du deinen **gesamten Quellcode** ebenfalls unter der GPL veröffentlichen. Das ist für viele Unternehmen ein Problem.
-
-### GPL-Varianten
-
-| Variante | Vollname | Besonderheit |
-|---|---|---|
-| **GPL v2/v3** | GNU General Public License | Starkes Copyleft, gesamter Code muss offen sein |
-| **LGPL** | GNU Lesser GPL | Schwächeres Copyleft – darf als Bibliothek in proprietäre Software eingebaut werden |
-| **AGPL** | Affero GPL | Wie GPL, aber auch für Netzwerkdienste (z. B. Web-Apps) |
-
-**Bekannte GPL-Software:** Linux-Kernel (GPL v2), WordPress (GPL v2), VLC Media Player (GPL v2)
+Für diese Art von Aufgaben eignet sich **Copilot Chat** besonders gut: keine vorgegebene Dokumentstruktur, keine fixe Formatvorgabe – nur die gestellte Frage und die Antwort der KI.
 
 ---
 
-## 3.3 MIT-Lizenz – maximale Freiheit
+## 3.2 Copilot Chat
 
-Die **MIT-Lizenz** ist eine **permissive** (erlaubende) Open-Source-Lizenz. Sie hat kaum Einschränkungen.
+Copilot Chat ist unter [copilot.microsoft.com](https://copilot.microsoft.com) erreichbar. Die Oberfläche funktioniert als Dialog: Eingabe, Antwort, Nachfrage, Weiterarbeit.
 
-### Was darf man mit MIT-Software?
+Oben in der Oberfläche befindet sich ein Umschalter zwischen zwei Modi:
 
-- Nutzung für jeden Zweck (auch kommerziell)
-- Verändern und in eigene Software einbauen
-- Weitergeben – auch als proprietäre (geschlossene) Software
-- Verkaufen
+| Modus | Bedeutung |
+|---|---|
+| **Work** | Copilot greift auf freigegebene Inhalte aus dem eigenen M365-Umfeld zu (Dokumente, E-Mails, Teams-Nachrichten). Nur nutzen, wenn der Zugriff auf diese Inhalte beabsichtigt ist. |
+| **Web** | Copilot arbeitet ausschließlich mit allgemeinem Wissen. Für Content-Aufgaben ohne Firmendaten die Standardwahl. |
 
-### Was muss man beachten?
-
-- Der ursprüngliche **Copyright-Hinweis** muss erhalten bleiben
-- Der **Lizenztext** muss in der Software oder Dokumentation enthalten sein
-
-Das ist alles. Deswegen ist MIT eine der beliebtesten Lizenzen im Unternehmensumfeld.
-
-**Bekannte MIT-Software:** React (Facebook/Meta), Node.js, jQuery, Ruby on Rails
-
-!!! tip "Merkregel"
-    MIT = Mach damit was du willst, aber vergiss nicht, wer es geschrieben hat.
+!!! tip "Empfehlung für den Kurs"
+    Für alle Übungen in diesem Kurs wird der Web-Modus empfohlen. Damit wird sichergestellt, dass keine internen Daten unbeabsichtigt einbezogen werden.
 
 ---
 
-## 3.4 Creative Commons
+## 3.3 Themenideen und Winkel entwickeln
 
-**Creative Commons (CC)** ist kein einzelne Lizenz, sondern ein **System von Lizenzbausteinen** – ursprünglich für kreative Werke (Texte, Bilder, Musik, Videos), zunehmend auch für Daten.
+**Prompt – Themenideen:**
 
-### Die vier Bausteine
+> Ich plane Inhalte für einen Blog über nachhaltige Lebensführung. Zielgruppe: Berufstätige zwischen 25 und 40 Jahren im urbanen Umfeld. Gib mir acht Themenideen für Blog-Artikel. Für jede Idee: ein konkreter Titel und ein Satz zur inhaltlichen Ausrichtung.
 
-| Kürzel | Symbol | Bedeutung |
-|---|---|---|
-| **BY** | :fontawesome-regular-copyright: | Attribution – Urheber muss genannt werden |
-| **SA** | :material-autorenew: | ShareAlike – Abgeleitetes Werk muss gleiche Lizenz haben |
-| **NC** | :fontawesome-solid-dollar-sign: (durchgestrichen) | NonCommercial – Keine kommerzielle Nutzung |
-| **ND** | :material-pencil-off: | NoDerivatives – Keine Bearbeitungen erlaubt |
+Von den generierten Ideen werden in der Regel nur einige weiterverfolgt. Das Ergebnis ist ein Ausgangspunkt, keine fertige Planung.
 
-### Die häufigsten CC-Lizenzen
+**Prompt – Winkel erarbeiten:**
 
-| Lizenz | Erlaubt | Einschränkungen |
-|---|---|---|
-| **CC0** | Alles – wie Public Domain | Keine |
-| **CC-BY** | Alles, auch kommerziell | Urheber nennen |
-| **CC-BY-SA** | Alles, auch kommerziell | Urheber nennen, gleiche Lizenz |
-| **CC-BY-NC** | Nutzung & Veränderung | Nur nicht-kommerziell, Urheber nennen |
-| **CC-BY-NC-SA** | Nutzung & Veränderung | Nicht-kommerziell, gleiche Lizenz |
-| **CC-BY-ND** | Nutzung, keine Veränderung | Unverändert, Urheber nennen |
+> Nimm Idee 3 aus der vorherigen Liste. Welche drei verschiedenen inhaltlichen Winkel wären für dieses Thema denkbar? Jeweils ein Satz pro Winkel.
 
-### Beispiel
-
-Ein Fotograf lädt ein Bild unter **CC-BY-NC** hoch. Ein Schulbuch-Verlag darf es kostenlos nutzen, wenn er den Fotografen nennt. Ein Werbeagentur darf es **nicht** verwenden (kommerziell).
+Durch diese Abfolge entsteht Schritt für Schritt ein konkreter, differenzierter Themenvorschlag.
 
 ---
 
-## 3.5 Lizenz-Vergleich auf einen Blick
+## 3.4 Briefings strukturieren
 
-```mermaid
-flowchart TD
-    A[Willst du Software/Inhalte nutzen?] --> B{Handelt es sich um\nSoftware-Code?}
-    B -->|Ja| C{Willst du die\nSoftware verändern?}
-    B -->|Nein - Bild, Text, etc.| G[Creative Commons prüfen]
-    C -->|Nein - nur nutzen| D[Alle Open Source\nLizenzen erlaubt]
-    C -->|Ja - und weiterverkaufen| E{Darf dein Produkt\nclosed source sein?}
-    E -->|Ja| F[MIT, BSD, Apache\nempfohlen]
-    E -->|Nein - alles offen| H[GPL geeignet]
-    G --> I{Kommerzielle Nutzung?}
-    I -->|Ja| J[CC-BY oder CC-BY-SA\nprüfen]
-    I -->|Nein| K[CC-BY-NC möglich]
-```
+Copilot kann aus unstrukturierten Notizen ein verwendbares Redaktionsbriefing entwickeln.
+
+**Prompt:**
+
+> Ich habe folgende Informationen zu einem geplanten Artikel: [Stichpunkte einfügen]. Strukturiere daraus ein kompaktes Redaktionsbriefing mit den Feldern: Ziel des Artikels, Zielgruppe, Kernbotschaft, Ton, ungefähre Länge, No-Gos.
+
+Das resultierende Briefing lässt sich anschließend direkt als Kontext in den nächsten Prompt einbinden.
 
 ---
 
-## Aufgaben – Kapitel 3
+## 3.5 Content-Kalender erstellen
 
-{{ task(file="tasks/tag3_01.yaml") }}
+**Prompt:**
 
-{{ task(file="tasks/tag3_02.yaml") }}
+> Ich betreibe einen Instagram-Account für eine nachhaltige Modemarke. Erstelle einen Content-Kalender für vier Wochen: drei Posts pro Woche. Für jeden Eintrag: Datum, Thema, eine Satz Beschreibung, empfohlenes Format (Bild, Reel oder Karussell).
 
-{{ task(file="tasks/tag3_03.yaml") }}
+!!! warning "Keine Echtzeit-Informationen"
+    Copilot kennt keine aktuellen Trends, Hashtag-Entwicklungen oder Plattform-Algorithmen. Der Kalender ist als strukturierte Grundlage zu verstehen – inhaltliche Anpassung an aktuelle Entwicklungen bleibt notwendig.
 
-{{ task(file="tasks/tag3_04.yaml") }}
+---
 
-{{ task(file="tasks/tag3_05.yaml") }}
+## Kurzübungen
+
+{{ task(file="tasks/tag2_02.yaml") }}
+
+{{ task(file="tasks/tag2_03.yaml") }}
+
+{{ task(file="tasks/tag2_04.yaml") }}
+
+---
+
+## Workshop
+
+{{ task(file="tasks/workshop_k3.yaml") }}

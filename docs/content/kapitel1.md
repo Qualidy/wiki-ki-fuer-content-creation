@@ -1,4 +1,4 @@
-# Kapitel 1 – Einstieg & Lizenzmodelle
+# Kapitel 1 – Was ist Copilot?
 
 <div class="kurs-progress">
   <div class="step active"></div>
@@ -6,92 +6,76 @@
   <div class="step"></div>
   <div class="step"></div>
   <div class="step"></div>
+  <div class="step"></div>
+  <div class="step"></div>
+  <div class="step"></div>
 </div>
 
 <div class="lernziele" markdown>
-<h3>Was du heute lernst</h3>
+<h3>Was du in diesem Kapitel lernst</h3>
 
-- Verstehen, was eine Softwarelizenz ist und wozu sie dient
-- OEM-Lizenzen erkennen und von anderen Modellen abgrenzen
-- Volumenlizenzen verstehen und typische Einsatzbereiche nennen
-- Erste Lizenzentscheidungen anhand von Praxisszenarien treffen
+- Was Microsoft 365 Copilot ist und wie er grundsätzlich funktioniert
+- Welche Aufgaben Copilot bei der Content-Arbeit übernehmen kann – und welche nicht
+- Wie Copilot als zentrales Arbeitswerkzeug im Kurs eingesetzt wird
 </div>
 
 ---
 
-## 1.1 Was ist eine Softwarelizenz?
+## So gehst du vor
 
-Wenn du eine Software kaufst, kaufst du **nicht** die Software selbst – du kaufst das **Recht**, sie zu nutzen. Dieses Nutzungsrecht nennt man **Lizenz**.
-
-Stell es dir so vor: Du kaufst ein Buch. Du besitzt dann das physische Buch, aber nicht das Recht, es zu kopieren und weiterzuverkaufen. Bei Software ist es ähnlich – nur dass du oft nicht einmal eine physische Kopie kaufst, sondern nur das Nutzungsrecht.
-
-!!! info "Merksatz"
-    Eine **Lizenz** ist ein Vertrag zwischen dem Hersteller (Urheber) und dem Nutzer, der regelt: **Wer** darf die Software **wie** und **wo** nutzen.
-
-Lizenzen legen fest:
-
-- Auf wie vielen Geräten die Software installiert werden darf
-- Ob die Software weitergegeben oder verkauft werden darf
-- Ob der Quellcode eingesehen oder verändert werden darf
-- Für welchen Zweck (privat, gewerblich) die Software genutzt werden darf
+1. Lies die Kapitelinhalte und probiere die Beispiele in Copilot aus.
+2. Bearbeite die **Kurzübungen** der Reihe nach – von Grundlagen bis Experte.
+3. Arbeite die **Workshop-Aufgabe** durch. Sie vertieft das Gelernte an einem zusammenhängenden Szenario.
 
 ---
 
-## 1.2 OEM-Lizenzen
+## 1.1 Einführung
 
-**OEM** steht für **Original Equipment Manufacturer** – also für Hersteller von Originalausrüstung.
+Microsoft 365 Copilot ist ein KI-Assistent, der in der Microsoft-365-Umgebung eingebettet ist. Er verarbeitet natürlichsprachliche Anweisungen und liefert darauf basierend Textentwürfe, Zusammenfassungen oder inhaltliche Vorschläge.
 
-Eine OEM-Lizenz ist eine Softwarelizenz, die **fest an ein bestimmtes Gerät** gebunden ist. Sie wird zusammen mit der Hardware verkauft und ist günstiger als eine Einzellizenz – dafür aber auch eingeschränkter.
+Der Hauptzugang im Kurs ist **Copilot Chat** unter [copilot.microsoft.com](https://copilot.microsoft.com). Über diese Oberfläche lassen sich alle wesentlichen Content-Aufgaben direkt ausführen – ohne weitere App-Installation.
 
-### Typisches Beispiel
-
-Ein Laptop-Hersteller wie Dell oder HP baut Windows in seine Laptops ein. Der Preis für Windows ist bereits im Laptop-Preis enthalten. Diese Windows-Kopie ist eine **OEM-Lizenz** – sie funktioniert nur auf genau diesem Laptop.
-
-!!! warning "Wichtige Einschränkung"
-    Eine OEM-Lizenz **erlischt**, wenn die Hardware entsorgt oder verkauft wird. Sie darf **nicht** auf einen anderen PC übertragen werden.
-
-### Merkmale im Überblick
-
-| Merkmal | OEM-Lizenz |
-|---|---|
-| Bindung | An ein bestimmtes Gerät (Hardware) |
-| Preis | Günstiger als Einzelhandel |
-| Übertragbar | Nein |
-| Support | Durch den Gerätehersteller, nicht Microsoft |
-| Typisch bei | Neukauf von PCs, Laptops, Servern |
+!!! tip "Zum Einstieg"
+    Rufe copilot.microsoft.com auf und melde dich mit deinem Microsoft-Konto an. Bereits der erste Prompt zeigt, wie Copilot auf Anweisungen reagiert.
 
 ---
 
-## 1.3 Volumenlizenzen
+## 1.2 Erwartungen einordnen
 
-Große Unternehmen kaufen selten einzelne Lizenzen – das wäre zu aufwändig und teuer. Stattdessen nutzen sie **Volumenlizenzen**: Man kauft das Recht, eine Software auf einer festgelegten Anzahl von Geräten oder für eine bestimmte Anzahl von Nutzern einzusetzen.
+Viele Nutzende sind beim ersten Einsatz enttäuscht: Das Ergebnis klingt generisch, passt nicht zur Marke oder trifft nicht den gewünschten Ton. Das ist kein Fehler des Tools – es liegt fast immer an der Qualität des Prompts.
 
-### Wie funktioniert das?
-
-Ein Unternehmen schließt einen **Lizenzvertrag** direkt mit dem Hersteller (z. B. Microsoft) ab. Im Vertrag steht, wie viele Installationen erlaubt sind. Das Unternehmen bekommt meist einen einzelnen Produktschlüssel oder eine Verwaltungssoftware für die Aktivierung.
-
-!!! info "Wichtig"
-    Volumenlizenzen sind **nicht** an bestimmte Hardware gebunden. Die Software kann auf beliebigen Geräten des Unternehmens installiert und auch umgezogen werden.
-
-### Bekannte Microsoft-Volumenlizenzprogramme
-
-- **Open License** – für kleinere Unternehmen (ab 5 Lizenzen)
-- **Open Value** – mit optionaler Software Assurance
-- **Enterprise Agreement (EA)** – für große Unternehmen (ab 500 Nutzer)
-
-### Vergleich: OEM vs. Volumen
-
-| Kriterium | OEM | Volumenlizenz |
-|---|---|---|
-| Gerätebindung | Ja | Nein |
-| Mindestmenge | 1 | Je nach Programm ab 5 |
-| Preis pro Lizenz | Günstiger | Mengenrabatt |
-| Einsatz | Neukauf Hardware | Nachträgliche Lizenzierung |
-| Verwaltungsaufwand | Gering | Zentral verwaltbar |
+Copilot kann nicht wissen, für welche Zielgruppe geschrieben wird, welcher Ton zur Marke passt oder welche Inhalte vermieden werden sollen. Diese Informationen müssen im Prompt mitgegeben werden. Je präziser die Anweisung, desto brauchbarer das Ergebnis. Darum dreht sich dieser Kurs.
 
 ---
 
-## Aufgaben – Kapitel 1
+## 1.3 Was Copilot übernehmen kann – und was nicht
+
+**Copilot unterstützt bei folgenden Aufgaben:**
+
+- Aus Stichpunkten einen ersten Textentwurf entwickeln
+- Bestehende Texte kürzen, umformulieren oder verlängern
+- Den Ton eines Textes anpassen (sachlicher, persönlicher, formeller)
+- Mehrere Varianten für Überschriften oder Einstiege vorschlagen
+- Ideen und Themenvorschläge generieren
+
+**Was Copilot nicht leisten kann:**
+
+Copilot trifft keine inhaltlichen Entscheidungen. Er kennt weder eure Markenstimme, noch eure Compliance-Vorgaben, noch den strategischen Kontext eines Textes. Die Verantwortung für Botschaft, Qualität und Freigabe bleibt beim Menschen.
+
+!!! warning "Faktenprüfung ist Pflicht"
+    Copilot kann plausibel klingende, aber falsche Angaben produzieren – Zahlen, Namen, Quellen. Alle Ergebnisse müssen vor dem Einsatz inhaltlich geprüft werden.
+
+---
+
+## 1.4 Copilot als Arbeitswerkzeug – ChatGPT im Überblick
+
+Im Kurs wird **primär mit Copilot** gearbeitet. Alle praktischen Übungen und Aufgaben sind auf Copilot Chat ausgelegt.
+
+**ChatGPT** wird kurz thematisiert (Kapitel 4): als eigenständiges Tool mit vergleichbarer Prompt-Logik, das außerhalb der Microsoft-365-Umgebung läuft. Die dort beschriebenen Prinzipien – RCFT, Folgeprompts, No-Gos – gelten für beide Tools gleichermaßen.
+
+---
+
+## Kurzübungen
 
 {{ task(file="tasks/tag1_01.yaml") }}
 
@@ -99,6 +83,8 @@ Ein Unternehmen schließt einen **Lizenzvertrag** direkt mit dem Hersteller (z. 
 
 {{ task(file="tasks/tag1_03.yaml") }}
 
-{{ task(file="tasks/tag1_04.yaml") }}
+---
 
-{{ task(file="tasks/tag1_05.yaml") }}
+## Workshop
+
+{{ task(file="tasks/workshop_k1.yaml") }}

@@ -1,0 +1,42 @@
+title: RCFT in der Praxis – vom Briefing zum Text
+difficulty: 4
+question: |
+  **Ausgangslage – Kundenbriefing (lose Notizen):**
+
+  > Neues Feature in unserer Projektmanagement-Software: Aufgaben lassen sich jetzt per Spracheingabe anlegen. Zielgruppe: Teamleiter in Agenturen. Launch nächsten Monat. LinkedIn und Newsletter. Ton: professionell, nicht zu technisch. Keine Preise. Keine Nennung von Mitbewerbern.
+
+  ---
+
+  **Phase 1 – Briefing strukturieren**
+
+  1. Lassen Sie Copilot aus den Notizen ein **strukturiertes Redaktionsbriefing** erstellen (RCFT-Vorlage).
+  2. Ergänzen Sie fehlende Felder per Folgeprompt.
+
+  ---
+
+  **Phase 2 – RCFT-Prompts bauen**
+
+  3. Formulieren Sie einen **vollständigen RCFT-Prompt** für einen LinkedIn-Post.
+  4. Formulieren Sie einen **vollständigen RCFT-Prompt** für einen Newsletter-Teaser (Betreffzeile + 2 Sätze).
+  5. Führen Sie beide Prompts in Copilot aus.
+
+  ---
+
+  **Phase 3 – Vergleich und Verbesserung**
+
+  6. Vergleichen Sie: Welcher Prompt lieferte das bessere Ergebnis – und **welcher RCFT-Baustein** fehlte im schwächeren?
+  7. Verbessern Sie den schwächeren Prompt und führen Sie ihn erneut aus.
+  8. Formulieren Sie für beide Texte je **einen Folgeprompt** (Hook / Betreffzeile).
+
+  ---
+
+  **Phase 4 – Abschluss**
+
+  9. Finalisieren Sie LinkedIn-Post und Newsletter-Teaser.
+  10. Erstellen Sie eine **RCFT-Checkliste** (5 Punkte) als Merkhilfe für künftige Prompts – in Copilot generieren oder selbst formulieren.
+
+  **Deliverables:** strukturiertes Briefing, 2 RCFT-Prompts, finaler LinkedIn-Post, Newsletter-Teaser, RCFT-Checkliste.
+tip: |
+  Phase 2 ist der Kern: RCFT nicht nur kennen, sondern anwenden. Phase 3 macht Unterschiede zwischen guten und unvollständigen Prompts sichtbar.
+solution: |
+  Häufig fehlende Bausteine: konkrete Zielgruppe (C), messbares Format (F), No-Gos (C). Schwacher Prompt: nur Task ohne Kontext.

@@ -1,18 +1,14 @@
-title: NUL – Regelverstoß erkennen
+title: Themenideen entwickeln
 difficulty: 1
 question: |
-  Die „Müller Logistik GmbH" hat 10 Named-User-Lizenzen für ihre Lagerverwaltungssoftware.
-  
-  Da die Nachtschicht oft unterbesetzt ist, teilen sich zwei Nachtschicht-Mitarbeiter (Thomas und Kevin) einen Login-Account, um nicht noch eine Lizenz kaufen zu müssen.
-  
-  **Fragen:**
-  1. Liegt hier ein Lizenzverstoß vor? Begründe.
-  2. Wie könnte das Unternehmen das Problem legal lösen?
+  Gib in **Copilot Chat** diesen Prompt ein – passe Branche und Zielgruppe an:
+
+  > Ich plane einen Instagram-Account für [Branche/Marke]. Zielgruppe: [Beschreibung]. Gib mir 6 Content-Ideen für den nächsten Monat. Je Idee: Titel + ein Satz Beschreibung + empfohlenes Format (Bild, Reel, Karussell).
+
+  Wähle **eine Idee** und formuliere einen Folgeprompt, der daraus eine **fertige Instagram-Caption** erstellt (max. 80 Wörter, Du-Form, 3 Hashtags).
 tip: |
-  Eine Named User License ist namentlich einer Person zugeordnet – der Name ist Programm.
+  Ideenfindung und Ausarbeitung sind zwei Schritte. Erst breit sammeln, dann eine Idee vertiefen.
 solution: |
-  **Ja**, es liegt ein Lizenzverstoß vor.
-  
-  Eine Named User License (NUL) ist an eine konkrete Person gebunden. Das Teilen eines Accounts bedeutet, dass eine Lizenz von zwei Personen genutzt wird – das ist nicht erlaubt, auch wenn sie nie gleichzeitig aktiv sind.
-  
-  **Legale Lösung:** Die Firma muss eine zusätzliche Lizenz für den zweiten Nutzer kaufen. Alternativ: Wenn nie beide gleichzeitig arbeiten, könnte ein Concurrent-User-Modell (gleichzeitige Nutzer) günstiger sein – falls der Hersteller das anbietet.
+  Beispiel-Folgeprompt:
+
+  > Nimm Idee 2. Schreib eine Instagram-Caption (max. 80 Wörter, Du-Form, 3 Hashtags). Konkreter Einstieg, kein generisches Marketingdeutsch.
