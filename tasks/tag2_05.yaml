@@ -1,7 +1,7 @@
-title: Web-Modus in Copilot nutzen
+title: LinkedIn-Post mit klaren Vorgaben
 difficulty: 1
 question: |
-  Öffne [copilot.microsoft.com](https://copilot.microsoft.com) und prüfe, ob der **Web**-Modus aktiv ist.
+  Öffne **Copilot Chat** in Microsoft 365.
 
   Gib diesen Prompt ein:
 
@@ -9,7 +9,7 @@ question: |
 
   Formuliere einen Folgeprompt, der den Post **sachlicher und kürzer** macht (max. 400 Zeichen, kein Buzzword).
 tip: |
-  Für Kursübungen ohne Firmendaten ist Web der richtige Modus. Vorgaben zu Sprache und Ton gehören direkt in den Prompt – das ist das Copilot-Äquivalent zu dauerhaften Profileinstellungen in anderen Tools.
+  Sprache, Ton und No-Gos gehören direkt in den Prompt – so steuern Sie das Ergebnis von Anfang an.
 solution: |
   Beispiel-Folgeprompt:
 

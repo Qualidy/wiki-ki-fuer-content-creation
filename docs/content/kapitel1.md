@@ -33,10 +33,10 @@
 
 Microsoft 365 Copilot ist ein KI-Assistent, der in der Microsoft-365-Umgebung eingebettet ist. Er verarbeitet natürlichsprachliche Anweisungen und liefert darauf basierend Textentwürfe, Zusammenfassungen oder inhaltliche Vorschläge.
 
-Der Hauptzugang im Kurs ist **Copilot Chat** unter [copilot.microsoft.com](https://copilot.microsoft.com). Über diese Oberfläche lassen sich alle wesentlichen Content-Aufgaben direkt ausführen – ohne weitere App-Installation.
+Der Hauptzugang im Kurs ist **Copilot Chat** – die Chat-Oberfläche von Microsoft 365 Copilot. Über diese Oberfläche lassen sich alle Content-Aufgaben im Kurs bearbeiten.
 
 !!! tip "Zum Einstieg"
-    Rufe copilot.microsoft.com auf und melde dich mit deinem Microsoft-Konto an. Bereits der erste Prompt zeigt, wie Copilot auf Anweisungen reagiert.
+    Öffnen Sie Copilot Chat über Ihren Microsoft-365-Copilot-Zugang. Bereits der erste Prompt zeigt, wie Copilot auf Anweisungen reagiert.
 
 ---
 

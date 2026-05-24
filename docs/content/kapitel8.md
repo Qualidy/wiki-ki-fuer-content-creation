@@ -85,8 +85,8 @@ Für Aufgaben, bei denen Standardformulate nicht ausreichen, gibt es erweiterte 
 **Kontraposition:**
 > Schreib zwei Versionen: eine übertrieben werbliche Variante (als Negativbeispiel) und eine sachliche, überzeugende Variante. Ich möchte den Unterschied sehen.
 
-**Winkelsuche:**
-> Was ist an unserem Produkt überraschend oder kontraintuitiv – etwas, das man nicht sofort erwartet, aber nachher überzeugend findet? Formuliere drei potenzielle Winkel für einen Blogartikel.
+**Alternative Ansätze finden:**
+> Was ist an unserem Produkt überraschend oder kontraintuitiv – etwas, das man nicht sofort erwartet, aber nachher überzeugend findet? Formuliere drei verschiedene Ansätze für einen Blogartikel zu diesem Thema.
 
 Diese Techniken helfen dabei, ungewöhnlichere, differenziertere Perspektiven zu entwickeln, die über das offensichtliche Narrativ hinausgehen.
 

@@ -46,8 +46,8 @@ Die Prompt-Logik ist in beiden Tools identisch: Rolle, Kontext, Format, Aufgabe,
 
 | Aspekt | Copilot | ChatGPT |
 |---|---|---|
-| **Zugang** | copilot.microsoft.com, M365-Umfeld | chatgpt.com |
-| **Firmendaten** | Work-Modus mit freigegebenen M365-Inhalten | Kein Zugriff auf Firmendaten |
+| **Zugang** | Microsoft 365 Copilot | chatgpt.com |
+| **Umgebung** | Microsoft-365-Umfeld | Externe Plattform |
 | **Einsatz im Kurs** | Primäres Arbeitswerkzeug | Kurze theoretische Einordnung |
 | **Prompt-Struktur** | RCFT, Folgeprompts, No-Gos | Identische Prinzipien |
 
@@ -61,7 +61,7 @@ Zwei Funktionen von ChatGPT sind erwähnenswert, haben im Kurs aber keine zentra
 
 **Custom Instructions:** Unter dem Profilbild lässt sich ein dauerhaftes Hintergrundprofil hinterlegen (Sprache, Ton, No-Gos). In Copilot werden diese Vorgaben stattdessen direkt im Prompt oder als wiederverwendbarer Persona-Block formuliert.
 
-**Anhänge:** ChatGPT kann Dateien hochladen und auswerten. Copilot bietet vergleichbare Funktionen im Work-Modus über angebundene M365-Inhalte.
+**Anhänge:** ChatGPT kann Dateien hochladen und auswerten. Copilot kann – je nach Umgebung – auf Dateien und Inhalte aus dem Microsoft-365-Umfeld zugreifen.
 
 ---
 

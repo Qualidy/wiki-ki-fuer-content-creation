@@ -3,13 +3,13 @@ difficulty: 4
 question: |
   **Ausgangslage:** Die fiktive Marke **Nordkorn** verkauft regionales Müsli online. Zielgruppe: Berufstätige 28–45, gesundheitsbewusst, wenig Zeit morgens. Ton: sachlich, freundlich, Du-Form.
 
-  Arbeiten Sie in **Copilot Chat** (Web-Modus) und dokumentieren Sie Ihre Prompts.
+  Arbeiten Sie in **Copilot Chat** und dokumentieren Sie Ihre Prompts.
 
   ---
 
   **Phase 1 – Erkundung**
 
-  1. Öffnen Sie Copilot Chat und prüfen Sie den Web-Modus.
+  1. Öffnen Sie Copilot Chat in Microsoft 365.
   2. Führen Sie einen **vagen Prompt** aus: „Schreib einen Text über unser Müsli."
   3. Führen Sie einen **präzisen Prompt** aus mit: Produkt, Zielgruppe, Kanal (Instagram), Ton, Länge, mindestens ein No-Go.
   4. Vergleichen Sie beide Ergebnisse direkt in Copilot.

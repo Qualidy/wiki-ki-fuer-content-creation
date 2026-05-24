@@ -27,7 +27,7 @@ hide:
 <a class="day-card" href="content/kapitel3/">
   <span class="day-label">Kapitel 3</span>
   <strong class="day-title">Copilot für Ideen und Planung</strong>
-  <span class="day-topics">Themenideen · Winkel finden · Briefings · Content-Kalender</span>
+  <span class="day-topics">Themenideen · Varianten entwickeln · Briefings · Content-Kalender</span>
 </a>
 
 <a class="day-card" href="content/kapitel4/">
@@ -57,7 +57,7 @@ hide:
 <a class="day-card" href="content/kapitel8/">
   <span class="day-label">Kapitel 8</span>
   <strong class="day-title">Persona, Storytelling & kreative Prompts</strong>
-  <span class="day-topics">Markenstimme entwickeln · Hook & Konflikt · Ungewöhnliche Winkel</span>
+  <span class="day-topics">Markenstimme entwickeln · Hook & Konflikt · Alternative Ansätze</span>
 </a>
 
 </div>

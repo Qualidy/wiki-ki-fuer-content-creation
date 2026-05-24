@@ -15,8 +15,8 @@
 <h3>Was du in diesem Kapitel lernst</h3>
 
 - Copilot in der konzeptionellen Phase einsetzen – vor dem eigentlichen Schreiben
-- Themenideen entwickeln, Winkel erarbeiten und Briefings strukturieren
-- Den Unterschied zwischen **Work** und **Web** in Copilot Chat kennen
+- Themenideen entwickeln, **Varianten** ausarbeiten und Briefings strukturieren
+- Copilot Chat für Planungs- und Brainstorming-Aufgaben nutzen
 </div>
 
 ---
@@ -33,8 +33,8 @@
 
 Der Einsatz von Copilot muss nicht erst beim Verfassen eines Textes beginnen. Copilot kann bereits in der Vorbereitungsphase eingesetzt werden – wenn noch keine konkrete Schreibaufgabe vorliegt, aber inhaltliche Orientierung gefragt ist:
 
-- Welche Themen sind für die Zielgruppe aktuell relevant?
-- Aus welchem Blickwinkel lässt sich ein Thema angehbar und differenziert behandeln?
+- Welche Themen sind für die Zielgruppe relevant?
+- Wie kann ein Thema unterschiedlich aufbereitet werden?
 - Welche Bestandteile gehören in ein vollständiges Briefing?
 - Wie könnte ein Content-Kalender für den nächsten Monat aussehen?
 
@@ -44,21 +44,24 @@ Für diese Art von Aufgaben eignet sich **Copilot Chat** besonders gut: keine vo
 
 ## 3.2 Copilot Chat
 
-Copilot Chat ist unter [copilot.microsoft.com](https://copilot.microsoft.com) erreichbar. Die Oberfläche funktioniert als Dialog: Eingabe, Antwort, Nachfrage, Weiterarbeit.
+**Copilot Chat** ist die Chat-Oberfläche von Microsoft 365 Copilot. Hier arbeiten Sie im Kurs: Anfrage eingeben, Antwort erhalten, im selben Gespräch nachfragen und weiterentwickeln.
 
-Oben in der Oberfläche befindet sich ein Umschalter zwischen zwei Modi:
+**Typischer Ablauf:**
 
-| Modus | Bedeutung |
-|---|---|
-| **Work** | Copilot greift auf freigegebene Inhalte aus dem eigenen M365-Umfeld zu (Dokumente, E-Mails, Teams-Nachrichten). Nur nutzen, wenn der Zugriff auf diese Inhalte beabsichtigt ist. |
-| **Web** | Copilot arbeitet ausschließlich mit allgemeinem Wissen. Für Content-Aufgaben ohne Firmendaten die Standardwahl. |
+1. Prompt formulieren und absenden
+2. Ergebnis prüfen
+3. Bei Bedarf Folgeprompt für Korrektur, Ergänzung oder eine andere Variante
 
-!!! tip "Empfehlung für den Kurs"
-    Für alle Übungen in diesem Kurs wird der Web-Modus empfohlen. Damit wird sichergestellt, dass keine internen Daten unbeabsichtigt einbezogen werden.
+Copilot behält den **Kontext des aktuellen Chats**. Sie müssen bei Nachfragen nicht jedes Mal von vorn anfangen – Copilot bezieht sich auf das, was im selben Gespräch bereits besprochen wurde.
+
+**Zugang:** Nutzen Sie den Copilot-Zugang aus Ihrem Kurs-Setup (Microsoft 365 Copilot). Die Oberfläche kann je nach Umgebung leicht variieren; entscheidend ist der Dialog mit der KI.
+
+!!! info "Für Übungen"
+    Arbeiten Sie mit fiktiven Marken und Beispielen, sofern nicht ausdrücklich interne Materialien genutzt werden sollen. Keine vertraulichen Kunden- oder Firmendaten in Prompts einfügen.
 
 ---
 
-## 3.3 Themenideen und Winkel entwickeln
+## 3.3 Themenideen und Varianten entwickeln
 
 **Prompt – Themenideen:**
 
@@ -66,11 +69,11 @@ Oben in der Oberfläche befindet sich ein Umschalter zwischen zwei Modi:
 
 Von den generierten Ideen werden in der Regel nur einige weiterverfolgt. Das Ergebnis ist ein Ausgangspunkt, keine fertige Planung.
 
-**Prompt – Winkel erarbeiten:**
+**Prompt – Varianten vertiefen:**
 
-> Nimm Idee 3 aus der vorherigen Liste. Welche drei verschiedenen inhaltlichen Winkel wären für dieses Thema denkbar? Jeweils ein Satz pro Winkel.
+> Nimm Idee 3 aus der vorherigen Liste. Entwickle drei verschiedene Varianten, wie wir dieses Thema als Blog-Artikel angehen könnten. Je Variante: Arbeitstitel + ein Satz, worin sich der Ansatz von den anderen unterscheidet.
 
-Durch diese Abfolge entsteht Schritt für Schritt ein konkreter, differenzierter Themenvorschlag.
+Durch diese Abfolge entsteht Schritt für Schritt ein konkreter, verwendbarer Themenvorschlag – nicht nur eine lose Idee, sondern eine Richtung für die Umsetzung.
 
 ---
 
