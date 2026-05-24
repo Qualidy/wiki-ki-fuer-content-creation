@@ -1,18 +1,18 @@
 title: Stil durch Beispiele vorgeben
 difficulty: 3
 question: |
-  Hier sind zwei Posts im Stil einer fiktiven Marke:
+  Hier sind zwei Posts im Stil der fiktiven Marke **Nota** (digitales Notizbuch):
   
   > „Montag, und du hast schon drei Dinge erledigt? Respekt. Unser neues Notizbuch hilft dir, dieses Tempo zu halten."
   
   > „Ideen kommen morgens um 3 Uhr. Gut, dass du sie irgendwo festhalten kannst."
   
-  **Aufgabe:** Nutze diese Beispiele als Stilvorlage und lass die KI einen dritten Post schreiben – über ein neues digitales Notizbuch (App, kostenlos, keine Anmeldung nötig).
+  **Aufgabe:** Nutze diese Beispiele als Stilvorlage und lass Copilot einen dritten Post schreiben – über die Nota-App (kostenlos, keine Anmeldung nötig).
   
-  Formuliere den Prompt so, dass klar ist: Die KI soll diesen Stil treffen, nicht einen anderen.
+  Formuliere den Prompt so, dass klar ist: Copilot soll diesen Stil treffen, nicht einen anderen.
 tip: |
-  Zeig der KI die Beispiele im Prompt und beschreib kurz, was diesen Stil ausmacht (z. B. kurze Sätze, direkter Ton, leichter Humor).
+  Zeige Copilot die Beispiele im Prompt und beschreib kurz, was diesen Stil ausmacht (z. B. kurze Sätze, direkter Ton, leichter Humor).
 solution: |
   Beispiel-Prompt:
   
-  > Unser Stil klingt so: „[Beispiel A]" und „[Beispiel B]". Kurze Sätze, direkter Ton, ein leichter Augenzwinkern. Schreib einen dritten Post über unsere neue Notiz-App – kostenlos, keine Anmeldung nötig. Max. 60 Wörter, Du-Form, kein Emoji.
+  > Unser Stil klingt so: „Montag, und du hast schon drei Dinge erledigt? Respekt. Unser neues Notizbuch hilft dir, dieses Tempo zu halten." und „Ideen kommen morgens um 3 Uhr. Gut, dass du sie irgendwo festhalten kannst." Kurze Sätze, direkter Ton, ein leichter Augenzwinkern. Schreib einen dritten Post über unsere Nota-App – kostenlos, keine Anmeldung nötig. Max. 60 Wörter, Du-Form, kein Emoji.

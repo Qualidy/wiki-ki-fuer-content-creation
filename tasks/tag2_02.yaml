@@ -1,9 +1,9 @@
 title: Themenideen entwickeln
 difficulty: 1
 question: |
-  Gib in **Copilot Chat** diesen Prompt ein – passe Branche und Zielgruppe an:
+  Gib in **Copilot Chat** diesen Prompt ein:
 
-  > Ich plane einen Instagram-Account für [Branche/Marke]. Zielgruppe: [Beschreibung]. Gib mir 6 Content-Ideen für den nächsten Monat. Je Idee: Titel + ein Satz Beschreibung + empfohlenes Format (Bild, Reel, Karussell).
+  > Ich plane einen Instagram-Account für die nachhaltige Modemarke GreenLoop. Zielgruppe: Frauen 25–40, kaufen bewusst, urban, online-affin. Gib mir 6 Content-Ideen für den nächsten Monat. Je Idee: Titel + ein Satz Beschreibung + welcher Text gebraucht wird (Caption, Blog-Einleitung oder Newsletter-Teaser).
 
   Wähle **eine Idee** und formuliere einen Folgeprompt, der daraus eine **fertige Instagram-Caption** erstellt (max. 80 Wörter, Du-Form, 3 Hashtags).
 tip: |

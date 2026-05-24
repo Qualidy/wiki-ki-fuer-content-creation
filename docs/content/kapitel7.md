@@ -36,7 +36,7 @@ KI-Modelle passen Stil und Format des Ergebnisses nicht automatisch an den Kanal
 ### Blog & Website
 
 - Länge in Wörtern angeben
-- Abschnittsstruktur (H2) vorgeben oder anfordern
+- Abschnittsstruktur mit Überschriften vorgeben oder anfordern
 - Festlegen, ob ein Fazit gewünscht ist
 
 **Beispiel-Prompt:**
@@ -110,7 +110,7 @@ Copilot und ChatGPT kennen keine Markenstimme. Sie müssen durch explizite Angab
 > Vermeiden: „revolutionär", „einzigartig", „zukunftsweisend", „nahtlos".
 
 **Stil durch Beispiel vermitteln:**
-> Unser Stil klingt so: „[Beispieltext]". Schreib in diesem Stil über [Thema].
+> Unser Stil klingt so: „Drei Stunden täglich verschwinden im Reporting – ohne erkennbares Ergebnis." Schreib in diesem Stil über unsere neue Rechnungsautomatisierung.
 
 Wenn ein Stilguide vorhanden ist, lassen sich die drei bis fünf wichtigsten Regeln direkt in den Kontext-Teil des Prompts integrieren.
 

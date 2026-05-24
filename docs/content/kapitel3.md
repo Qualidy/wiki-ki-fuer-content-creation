@@ -83,7 +83,7 @@ Copilot kann aus unstrukturierten Notizen ein verwendbares Redaktionsbriefing en
 
 **Prompt:**
 
-> Ich habe folgende Informationen zu einem geplanten Artikel: [Stichpunkte einfügen]. Strukturiere daraus ein kompaktes Redaktionsbriefing mit den Feldern: Ziel des Artikels, Zielgruppe, Kernbotschaft, Ton, ungefähre Länge, No-Gos.
+> Ich habe folgende Informationen zu einem geplanten Artikel: Thema „Nachhaltige Verpackungen im Online-Handel", Zielgruppe Shop-Betreibende, Länge ca. 800 Wörter, Ton sachlich, Du-Form, kein Fazit. Strukturiere daraus ein kompaktes Redaktionsbriefing mit den Feldern: Ziel des Artikels, Zielgruppe, Kernbotschaft, Ton, ungefähre Länge, No-Gos.
 
 Das resultierende Briefing lässt sich anschließend direkt als Kontext in den nächsten Prompt einbinden.
 
@@ -93,7 +93,10 @@ Das resultierende Briefing lässt sich anschließend direkt als Kontext in den n
 
 **Prompt:**
 
-> Ich betreibe einen Instagram-Account für eine nachhaltige Modemarke. Erstelle einen Content-Kalender für vier Wochen: drei Posts pro Woche. Für jeden Eintrag: Datum, Thema, eine Satz Beschreibung, empfohlenes Format (Bild, Reel oder Karussell).
+> Ich betreibe einen Instagram-Account für die nachhaltige Modemarke GreenLoop. Erstelle einen Content-Kalender für vier Wochen: drei Posts pro Woche. Für jeden Eintrag: Datum, Thema, eine Satz Beschreibung, welcher Text gebraucht wird (Caption, Blog-Einleitung oder Newsletter-Teaser).
+
+!!! info "Planung vs. Produktion"
+    Copilot unterstützt bei **Texten** – Ideen, Briefings, Captions, Blog-Abschnitte. Bilder, Reels oder Karussell-Grafiken entstehen außerhalb des Chats. Im Kalender genügt als Formatangabe, welcher **Text** für den jeweiligen Kanal gebraucht wird.
 
 !!! warning "Keine Echtzeit-Informationen"
     Copilot kennt keine aktuellen Trends, Hashtag-Entwicklungen oder Plattform-Algorithmen. Der Kalender ist als strukturierte Grundlage zu verstehen – inhaltliche Anpassung an aktuelle Entwicklungen bleibt notwendig.

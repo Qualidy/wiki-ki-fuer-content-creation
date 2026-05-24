@@ -1,7 +1,7 @@
 title: Vager vs. präziser Prompt
 difficulty: 3
 question: |
-  Arbeite in **Copilot Chat** mit demselben fiktiven Produkt (z. B. eine App, ein Snack, ein B2B-Tool):
+  Arbeite in **Copilot Chat** mit der fiktiven App **TimeTrack** (Zeiterfassung für Freelancer, mobil, kostenlos):
 
   **Schritt 1 – vager Prompt:**
   > Schreib einen Text über unser neues Produkt.
@@ -18,7 +18,7 @@ tip: |
 solution: |
   Beispiel präziser Prompt:
 
-  > Du bist Texter für eine Zeiterfassungs-App für Freelancer (mobil, kostenlos). Schreib einen LinkedIn-Post. Zielgruppe: Selbstständige mit wenig Zeit. Max. 800 Zeichen, Sie-Form, sachlich. No-Go: keine erfundenen Statistiken, keine Superlative. Hook in der ersten Zeile, CTA am Ende.
+  > Du bist Texter für TimeTrack, eine Zeiterfassungs-App für Freelancer (mobil, kostenlos). Schreib einen LinkedIn-Post. Zielgruppe: Selbstständige mit wenig Zeit. Max. 800 Zeichen, Sie-Form, sachlich. No-Go: keine erfundenen Statistiken, keine Superlative. Hook in der ersten Zeile, CTA am Ende.
 
   Beispiel-Folgeprompt:
 

@@ -1,21 +1,23 @@
 title: Persona, Multi-Format und Prompt-Vorlage
 difficulty: 3
 question: |
-  Erstelle in **Copilot Chat** einen vollständigen Prompt für eine Marke deiner Wahl, der:
+  Erstelle in **Copilot Chat** einen vollständigen Prompt für **Nordkorn** (regionales Müsli, Zielgruppe: Berufstätige 28–45, gesundheitsbewusst), der:
 
   1. Einen Persona-Block enthält
   2. Drei Formate gleichzeitig produziert: LinkedIn-Post, Instagram-Caption, Newsletter-Teaser
   3. Pro Kanal Format-Vorgaben definiert (Länge, Ton, Hashtags)
   4. Mindestens zwei No-Gos enthält
 
+  **Kernbotschaft:** Launch des neuen Hafer-Müsli „Nordkorn Classic" – regional, ohne Zusatzstoffe.
+
   Führe den Prompt aus. Korrigiere Verstöße gegen No-Gos per Folgeprompt.
 
-  **Abschluss:** Formuliere den Prompt als **wiederverwendbare Vorlage** mit Platzhaltern in [eckigen Klammern] – bereit für den Einsatz im Arbeitsalltag.
+  **Abschluss:** Speichere den **exakten Prompt**, den du verwendet hast. Formuliere denselben Prompt anschließend für die fiktive Marke **GreenLoop** (nachhaltige Mode) um – gleiche Struktur, andere Marke und Botschaft.
 tip: |
-  Deliverable: drei kanalspezifische Texte + eine Prompt-Vorlage. Keine Reflexion, sondern einsetzbare Arbeitsergebnisse.
+  Deliverable: drei kanalspezifische Texte für Nordkorn + der umgeschriebene Prompt für GreenLoop. Keine Reflexion, sondern einsetzbare Arbeitsergebnisse.
 solution: |
-  Vorlagen-Struktur:
+  Beispiel-Prompt Nordkorn:
 
-  > [Persona-Block]. Kernbotschaft: [Botschaft]. Erstelle: 1) LinkedIn ([Länge], [Ton], CTA: [Text]) 2) Instagram ([Länge], [Hashtags]) 3) Newsletter (Betreff + Teaser). No-Gos: [Liste].
+  > Marke Nordkorn, regionales Müsli. Zielgruppe: Berufstätige 28–45, gesundheitsbewusst, wenig Zeit morgens. Ton: sachlich, freundlich, Du-Form. No-Gos: keine Gesundheitsversprechen, keine erfundenen Nährwertangaben. Kernbotschaft: Launch Nordkorn Classic – regional, ohne Zusatzstoffe. Erstelle: 1) LinkedIn-Post (max. 600 Zeichen, Sie-Form, CTA: Jetzt bestellen) 2) Instagram-Caption (max. 80 Wörter, 3 Hashtags) 3) Newsletter (Betreff max. 50 Zeichen + Teaser 2 Sätze).
 
-  Folgeprompt bei Verstößen: „Formuliere [Format] neu. No-Gos: [Liste]. Übrige Vorgaben beibehalten."
+  Folgeprompt bei Verstößen: „Formuliere die Instagram-Caption neu. No-Gos: keine Gesundheitsversprechen, keine erfundenen Nährwertangaben. Übrige Vorgaben beibehalten."

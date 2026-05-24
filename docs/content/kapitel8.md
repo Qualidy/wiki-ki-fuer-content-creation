@@ -54,7 +54,7 @@ Eine Persona beschreibt nicht die Zielgruppe – sie beschreibt, **wer die Marke
 
 **Einsatz im Prompt:**
 
-> [Persona-Block] Schreib eine Instagram-Caption für unser neues Feuchtigkeitsserum. Max. 80 Wörter, Du-Form, ein konkreter Nutzen in der ersten Zeile. Kein Emoji.
+> Marke LumaSkin, Kosmetik für sensible Haut. Zielgruppe: Frauen 30–45, online-affin. Ton: sachlich, vertrauenswürdig, Du-Form. No-Gos: keine Heilversprechen, keine Superlative. Schreib eine Instagram-Caption für unser neues Feuchtigkeitsserum. Max. 80 Wörter, Du-Form, ein konkreter Nutzen in der ersten Zeile. Kein Emoji.
 
 ---
 

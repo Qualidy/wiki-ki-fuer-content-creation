@@ -1,9 +1,13 @@
 title: LinkedIn-Post mit Story-Struktur
 difficulty: 2
 question: |
+  Nutze diesen Persona-Block für **FlowTask** (Projektmanagement-Software für Agenturen):
+
+  > Marke FlowTask, Projektmanagement für Agenturen. Zielgruppe: Teamleiter 30–50, unter Zeitdruck. Ton: professionell, konkret, Sie-Form. No-Gos: keine erfundenen Statistiken, keine Mitbewerber-Nennung, kein Buzzword-Deutsch.
+
   Gib in **Copilot Chat** einen Prompt ein, der einen LinkedIn-Post mit Story-Struktur erstellt:
 
-  - Persona-Block (aus der vorherigen Aufgabe oder neu)
+  - Thema: neue Spracheingabe-Funktion für Aufgaben
   - Story-Struktur: Hook → Problem → Wendung → CTA
   - Format: max. 900 Zeichen, Sie-Form, kein generisches Marketingdeutsch
 
@@ -15,7 +19,7 @@ tip: |
 solution: |
   Beispiel-Hauptprompt:
 
-  > [Persona-Block] Schreib einen LinkedIn-Post über [Thema]. Story-Struktur: Hook, Problem, Wendung, CTA. Max. 900 Zeichen, Sie-Form.
+  > Marke FlowTask, Projektmanagement für Agenturen. Zielgruppe: Teamleiter 30–50, unter Zeitdruck. Ton: professionell, konkret, Sie-Form. No-Gos: keine erfundenen Statistiken, keine Mitbewerber-Nennung. Schreib einen LinkedIn-Post über unsere neue Spracheingabe-Funktion. Story-Struktur: Hook, Problem, Wendung, CTA. Max. 900 Zeichen, Sie-Form.
 
   Folgeprompt Hook: „Formuliere den Hook konkreter. Keine Frage als Einstieg, kein Buzzword."
 

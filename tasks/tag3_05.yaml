@@ -1,15 +1,17 @@
-title: RCFT-Prompt für reale Content-Aufgabe
+title: RCFT-Prompt für Content-Aufgabe
 difficulty: 3
 question: |
-  Formuliere für eine Content-Aufgabe aus deinem Arbeitsalltag (oder ein fiktives Szenario) einen **vollständigen RCFT-Prompt** mit allen vier Bausteinen, mindestens zwei No-Gos und klarem Format.
+  Formuliere für dieses fiktive Szenario einen **vollständigen RCFT-Prompt** mit allen vier Bausteinen, mindestens zwei No-Gos und klarem Format:
+
+  **Szenario:** Die Kosmetikmarke **LumaSkin** bringt ein neues Feuchtigkeitsserum auf den Markt. Zielgruppe: Frauen 30–45, sensible Haut, online-affin. Kanal: Instagram-Caption. Ton: sachlich, vertrauenswürdig, Du-Form.
 
   Führe den Prompt in **Copilot Chat** aus.
 
   Arbeite das Ergebnis in **zwei Folgeprompts** weiter:
   1. Ton oder Länge anpassen
-  2. Für einen zweiten Kanal umschreiben (z. B. von Blog-Absatz zu LinkedIn-Post)
+  2. Für LinkedIn umschreiben (max. 600 Zeichen, Sie-Form)
 
-  **Deliverable:** finaler Text für den zweiten Kanal.
+  **Deliverable:** finaler LinkedIn-Text.
 tip: |
   RCFT ist dann erfolgreich, wenn der Entwurf ohne große Nacharbeit weiterverwendbar ist – oder mit einem gezielten Folgeprompt fertig wird.
 solution: |

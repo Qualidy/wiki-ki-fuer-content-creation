@@ -1,7 +1,7 @@
 title: Kürzen in drei Schritten
 difficulty: 1
 question: |
-  Nimm diesen Text (oder einen eigenen):
+  Nimm diesen Text:
   
   > „Wir freuen uns, Ihnen mitteilen zu dürfen, dass unser Unternehmen ab sofort ein neues Produkt anbietet, das speziell für die Bedürfnisse moderner Berufstätiger entwickelt wurde und Ihnen dabei helfen soll, Ihren Alltag effizienter zu gestalten."
   
@@ -11,7 +11,7 @@ question: |
   2. „Kürze auf 25 Wörter."
   3. „Mach die erste Zeile zu einer Frage."
   
-  Schreib jeweils das Ergebnis auf und vergleiche.
+  Vergleichen Sie die drei Versionen direkt im Chat – welcher Schritt hat den größten Effekt?
 tip: |
   Du wirst sehen, wie der Text mit jedem Schritt klarer wird. Das ist der Kern von iterativem Prompting.
 solution: |

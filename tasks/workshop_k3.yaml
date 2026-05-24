@@ -1,13 +1,13 @@
 title: Content-Planung von der Idee bis zum Briefing
 difficulty: 4
 question: |
-  **Ausgangslage:** Sie betreuen den Content für eine **nachhaltige Modemarke** (fiktiv oder aus Ihrem Umfeld). Zielgruppe: Frauen 25–40, kaufen bewusst, online-affin. Kanal-Fokus: Instagram und Blog.
+  **Ausgangslage:** Sie betreuen den Content für die fiktive Marke **GreenLoop** (nachhaltige Mode). Zielgruppe: Frauen 25–40, kaufen bewusst, online-affin. Kanal-Fokus: Instagram und Blog.
 
   ---
 
   **Phase 1 – Themenfindung**
 
-  1. Lassen Sie **10 Content-Ideen** für den nächsten Monat generieren (Titel + 1 Satz + Format).
+  1. Lassen Sie **10 Content-Ideen** für den nächsten Monat generieren (Titel + 1 Satz + Texttyp: Caption, Blog-Einleitung oder Newsletter-Teaser).
   2. Wählen Sie **3 Ideen** und begründen Sie die Auswahl intern (nicht als Text – Entscheidung reicht).
   3. Entwickeln Sie für jede der 3 Ideen **eine inhaltliche Variante** (je 1 Satz: Worin unterscheidet sich der Ansatz?).
 
@@ -15,8 +15,8 @@ question: |
 
   **Phase 2 – Content-Kalender**
 
-  4. Erstellen Sie einen **4-Wochen-Kalender** (3 Posts/Woche): Datum, Thema, Format, 1-Satz-Beschreibung.
-  5. Markieren Sie **2 Slots**, die besonders aufwändig sind (Reel, Karussell) – und formulieren Sie dafür erweiterte Prompts.
+  4. Erstellen Sie einen **4-Wochen-Kalender** (3 Posts/Woche): Datum, Thema, Texttyp, 1-Satz-Beschreibung.
+  5. Markieren Sie **2 Kalender-Einträge**, die mehr Textarbeit brauchen (z. B. Blog-Einleitung, ausführliche Caption) – und formulieren Sie dafür **detaillierte Prompts** mit Briefing-Vorgaben (Ziel, Ton, Länge, No-Gos).
 
   ---
 
@@ -37,4 +37,4 @@ question: |
 tip: |
   Diese Übung simuliert den realen Planungsprozess: Idee → Kalender → Briefing → Text. Nicht alles in einem Prompt.
 solution: |
-  Gutes Briefing enthält: Ziel, Zielgruppe, Kernbotschaft, Ton, Format/Länge, No-Gos, CTA. Kalender-Einträge sollten Formate abwechseln.
+  Gutes Briefing enthält: Ziel, Zielgruppe, Kernbotschaft, Ton, Format/Länge, No-Gos, CTA. Kalender-Einträge sollten unterschiedliche Texttypen abwechseln (Caption, Blog, Newsletter).

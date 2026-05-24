@@ -1,16 +1,21 @@
 title: Iterativer Schreibprozess – vom Rohling zum fertigen Post
 difficulty: 4
 question: |
-  **Ausgangstext (von Copilot oder vorgegeben):**
+  **Ausgangstext:**
 
   > „In der heutigen digitalen Arbeitswelt ist Effizienz wichtiger denn je. Unternehmen suchen nach Lösungen, die ihre Prozesse optimieren. Unsere innovative Plattform bietet einzigartige Möglichkeiten, die Zusammenarbeit zu verbessern und die Produktivität zu steigern."
 
+  **Marke:** FlowTask (Projektmanagement-Software für Agenturen)
+
   ---
 
-  **Phase 1 – Analyse**
+  **Phase 1 – Analyse in Copilot**
 
-  1. Markieren Sie im Text: Füllwörter, Floskeln, Superlative, passive Formulierungen.
-  2. Formulieren Sie **drei separate Überarbeitungs-Prompts** (je ein Ziel).
+  1. Geben Sie den Ausgangstext in **Copilot Chat** ein:
+
+     > Analysiere diesen Text. Nenne konkret: Füllwörter, Floskeln, Superlative und passive Formulierungen. Nur Analyse – keinen neuen Text schreiben.
+
+  2. Formulieren Sie **drei Überarbeitungs-Prompts** (je ein Ziel) – auf Basis der Copilot-Analyse.
 
   ---
 
@@ -26,18 +31,23 @@ question: |
 
   **Phase 3 – Stil vorgeben**
 
-  8. Zeigen Sie Copilot **zwei Beispiel-Sätze** im gewünschten Stil (selbst formuliert oder aus Ihrer Marke).
-  9. Lassen Sie den LinkedIn-Post **im gezeigten Stil** neu schreiben.
+  8. Zeigen Sie Copilot **zwei Beispiel-Sätze** im Stil von FlowTask (Ton: professionell, konkret, Sie-Form):
+
+     > „Drei Stunden täglich verschwinden im Reporting – ohne erkennbares Ergebnis."
+
+     > „Die meisten Tools versprechen Automatisierung. Die wenigsten halten es ein."
+
+  9. Lassen Sie den LinkedIn-Post **im gezeigten Stil** neu schreiben – Thema: neue Spracheingabe-Funktion bei FlowTask.
 
   ---
 
   **Phase 4 – Abschluss**
 
   10. Finalisieren Sie den Post mit einem letzten Folgeprompt (CTA, Länge).
-  11. Dokumentieren Sie Ihre **Prompt-Kette** (alle Prompts in Reihenfolge).
+  11. Speichern Sie Ihre **Prompt-Kette** (alle Prompts in Reihenfolge).
 
-  **Deliverables:** finaler LinkedIn-Post, dokumentierte Prompt-Kette (mindestens 5 Schritte).
+  **Deliverables:** Copilot-Analyse, finaler LinkedIn-Post, dokumentierte Prompt-Kette (mindestens 6 Schritte).
 tip: |
-  Bewusst vorgeben: Der Starttext ist absichtlich schlecht. Die Übung zeigt den Wert iterativen Promptens.
+  Der Starttext ist absichtlich schwach. Die Übung zeigt: Erst analysieren lassen, dann gezielt überarbeiten – alles in Copilot, ohne manuelles Markieren.
 solution: |
-  Gute Prompt-Kette: ein Ziel pro Schritt, klarer Fortschritt vom Rohling zum kanalspezifischen Text. Stil-Beispiele in Phase 3 machen großen Unterschied.
+  Gute Prompt-Kette: ein Ziel pro Schritt, klarer Fortschritt vom Rohling zum kanalspezifischen Text. Die Analyse in Phase 1 liefert die Grundlage für präzise Überarbeitungs-Prompts.

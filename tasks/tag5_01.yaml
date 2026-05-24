@@ -1,7 +1,9 @@
 title: Multi-Format aus einer Botschaft
 difficulty: 3
 question: |
-  Wähle eine Kernbotschaft aus deinem Arbeitsalltag (oder ein fiktives Szenario) und gib in **Copilot Chat** einen Prompt ein, der daraus gleichzeitig erstellt:
+  **Kernbotschaft:** Ab 1. Juli können Bestandskunden im Online-Shop von **Waldwerk** (Outdoor-Ausrüster) ohne Kundenkonto bestellen – Bestellung in drei Schritten, Lieferung in 2–3 Werktagen.
+
+  Gib in **Copilot Chat** einen Prompt ein, der daraus gleichzeitig erstellt:
 
   1. LinkedIn-Post (max. 900 Zeichen, Sie-Form, Hook, CTA)
   2. Instagram-Caption (max. 80 Wörter, Du-Form, 3–5 Hashtags)
@@ -15,4 +17,4 @@ tip: |
 solution: |
   Beispiel-No-Gos: keine erfundenen Zahlen, keine Superlative, keine Mitbewerber-Nennung.
 
-  Folgeprompt bei Verstoß: „Formuliere [Format] neu. No-Gos erneut beachten: [Liste]. Ton und Länge beibehalten."
+  Folgeprompt bei Verstoß: „Formuliere den LinkedIn-Post neu. No-Gos erneut beachten: keine erfundenen Zahlen, keine Superlative. Ton und Länge beibehalten."

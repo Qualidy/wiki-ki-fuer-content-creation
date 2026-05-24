@@ -1,7 +1,7 @@
 title: Wiederverwendbarer Persona-Block
 difficulty: 3
 question: |
-  Entwickle für eine Marke deiner Wahl (echt oder fiktiv) einen **Persona-Block**, den du in Copilot-Prompts wiederverwenden kannst.
+  Entwickle für die fiktive Marke **BakeHaus** (handwerkliche Bäckerei, Stammkunden 30–60 Jahre) einen **Persona-Block**, den du in Copilot-Prompts wiederverwenden kannst.
 
   Der Block soll enthalten:
   - Branche und Zielgruppe
@@ -10,17 +10,19 @@ question: |
 
   **Schritt 1:** Formuliere den Persona-Block (max. 6 Sätze).
 
-  **Schritt 2:** Nutze ihn in Copilot für drei unterschiedliche Formate:
-  1. LinkedIn-Post (max. 800 Zeichen)
-  2. Instagram-Caption (max. 80 Wörter)
-  3. Newsletter-Betreffzeile + Teaser (2 Sätze)
+  **Schritt 2:** Kopiere den Persona-Block in Copilot und erstelle nacheinander:
+  1. LinkedIn-Post (max. 800 Zeichen) zum Thema „neues Vollkornbrot"
+  2. Instagram-Caption (max. 80 Wörter) zum gleichen Thema
+  3. Newsletter-Betreffzeile + Teaser (2 Sätze) zum gleichen Thema
 
   **Deliverable:** Persona-Block + drei Texte aus Copilot.
 tip: |
-  In Copilot werden wiederkehrende Vorgaben direkt im Prompt formuliert – nicht in separaten Profileinstellungen. Der Persona-Block ist dein wiederverwendbares Briefing-Element.
+  In Copilot werden wiederkehrende Vorgaben direkt im Prompt formuliert. Der Persona-Block steht am Anfang – danach kommt die konkrete Aufgabe.
 solution: |
   Beispiel-Persona-Block:
 
-  > Marke: Handwerkliche Bäckerei, Zielgruppe Stammkunden 30–60. Ton: bodenständig, warm, Du-Form. No-Gos: keine Gesundheitsversprechen, keine Preise, keine Anglizismen, kein „revolutionär".
+  > Marke BakeHaus, handwerkliche Bäckerei. Zielgruppe: Stammkunden 30–60, schätzen Tradition und Qualität. Ton: warm, bodenständig, Du-Form. No-Gos: keine Gesundheitsversprechen, keine Preise, keine Anglizismen, kein „revolutionär".
 
-  Prompt-Struktur: [Persona-Block] + [Format-Vorgabe] + [Konkrete Aufgabe].
+  Beispiel-Prompt Schritt 2 (Persona-Block + Aufgabe in einem Prompt):
+
+  > Marke BakeHaus, handwerkliche Bäckerei. Zielgruppe: Stammkunden 30–60, schätzen Tradition und Qualität. Ton: warm, bodenständig. No-Gos: keine Gesundheitsversprechen, keine Preise, keine Anglizismen. Schreib einen LinkedIn-Post zum neuen Vollkornbrot. Max. 800 Zeichen, Sie-Form, sachlich-einladend.

@@ -5,13 +5,13 @@ question: |
   
   > „Schreib einen Text über unsere App."
   
-  Verbessere ihn, indem du mindestens **drei der vier RCFT-Bausteine** ergänzt. Du kannst dir das Produkt frei ausdenken.
+  Verbessere ihn für die fiktive App **TimeTrack** (Zeiterfassung für Freelancer, mobil, kostenlos), indem du mindestens **drei der vier RCFT-Bausteine** ergänzt. Führe den verbesserten Prompt in **Copilot Chat** aus.
 tip: |
   R = Rolle der KI, C = Kontext/Fakten, F = Format des Ergebnisses, T = konkrete Aufgabe. Du musst nicht alle vier nehmen – aber je mehr, desto besser das Ergebnis.
 solution: |
   Beispiel-Verbesserung:
   
-  > **R:** Du bist Texter für ein Tech-Startup.  
-  > **C:** Unsere App hilft Studierenden, Lernzeiten besser einzuplanen. Kein Abo, keine Anmeldung nötig.  
+  > **R:** Du bist Texter für die Zeiterfassungs-App TimeTrack.  
+  > **C:** TimeTrack hilft Freelancern, Arbeitszeiten mobil zu erfassen. Kein Abo, kostenlos.  
   > **T:** Schreib eine kurze Beschreibung für den App Store.  
   > **F:** Max. 80 Wörter, Du-Form, ein konkreter Nutzen in der ersten Zeile.

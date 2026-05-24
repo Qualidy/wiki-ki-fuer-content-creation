@@ -1,16 +1,20 @@
 title: Persona-Block entwickeln und testen
 difficulty: 1
 question: |
-  Entwickle für eine Marke (echt oder fiktiv) einen **Persona-Block** (max. 6 Sätze): Ton, Ansprache, mindestens drei No-Gos.
+  Entwickle für die fiktive Marke **LumaSkin** (Kosmetik, sensible Haut, Zielgruppe Frauen 30–45) einen **Persona-Block** (max. 6 Sätze): Ton, Ansprache, mindestens drei No-Gos.
 
   Nutze den Block in **Copilot Chat** für diesen Prompt:
 
-  > [Persona-Block] Schreib eine Website-Einleitung (ca. 50 Wörter) für [Produkt oder Anlass deiner Wahl].
+  > Schreib eine Website-Einleitung (ca. 50 Wörter) für unser neues Feuchtigkeitsserum. Max. 50 Wörter, Du-Form, sachlich-vertrauenswürdig.
 
-  Formuliere einen Folgeprompt, der den Text an die Markenstimme anpasst, falls das Ergebnis noch zu generisch wirkt.
+  Kopiere deinen Persona-Block **vor** die Aufgabe in denselben Prompt. Formuliere einen Folgeprompt, der den Text an die Markenstimme anpasst, falls das Ergebnis noch zu generisch wirkt.
 tip: |
-  Persona-Blöcke werden in Copilot direkt im Prompt eingesetzt – nicht in separaten Profileinstellungen.
+  Persona-Blöcke werden in Copilot direkt im Prompt eingesetzt – am Anfang, gefolgt von der konkreten Aufgabe.
 solution: |
+  Beispiel-Persona-Block:
+
+  > Marke LumaSkin, Kosmetik für sensible Haut. Zielgruppe: Frauen 30–45, online-affin. Ton: sachlich, vertrauenswürdig, Du-Form. No-Gos: keine Heilversprechen, keine erfundenen Studien, keine Superlative.
+
   Beispiel-Folgeprompt:
 
   > Formuliere direkter und weniger werblich. Entferne Superlative. Ton aus dem Persona-Block beibehalten.

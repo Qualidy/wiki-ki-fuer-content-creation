@@ -87,7 +87,7 @@ Was in einem Redaktionsbriefing als No-Go vermerkt würde, gehört auch in den P
 ## 6.4 Praxisbeispiel: ein Blogartikel-Abschnitt in drei Prompts
 
 **Prompt 1 – Gliederung:**
-> Erstelle eine Gliederung für einen Blogartikel zum Thema „Nachhaltige Verpackungen im Online-Handel". Drei H2-Abschnitte, Zielgruppe: Shop-Betreibende, Du-Form. Kein Fazit.
+> Erstelle eine Gliederung für einen Blogartikel zum Thema „Nachhaltige Verpackungen im Online-Handel". Drei Abschnitte mit Überschriften, Zielgruppe: Shop-Betreibende, Du-Form. Kein Fazit.
 
 **Prompt 2 – Abschnitt ausschreiben:**
 > Schreib jetzt den zweiten Abschnitt aus der Gliederung. Ca. 200 Wörter, ein konkretes Beispiel aus dem Alltag eines Online-Shops.
@@ -103,7 +103,7 @@ Das Ergebnis nach drei Prompts ist ein überarbeiteter, verwendbarer Textentwurf
 
 Wenn eine bestimmte Markenstimme schwer in Worte zu fassen ist, kann sie durch Beispiele vermittelt werden:
 
-> Unser Content klingt normalerweise so: „[Beispieltext A]" und „[Beispieltext B]". Schreib in diesem Stil einen Beitrag über unser neues Angebot.
+> Unser Content klingt normalerweise so: „Montag, und du hast schon drei Dinge erledigt? Respekt." und „Ideen kommen morgens um 3 Uhr. Gut, dass du sie irgendwo festhalten kannst." Schreib in diesem Stil einen Beitrag über unsere neue Notiz-App.
 
 Diese Technik eignet sich besonders, wenn ein eigener Stil existiert, der durch abstrakte Beschreibungen nur unzureichend erfasst wird.
 

@@ -1,45 +1,55 @@
 title: Arbeitsablauf und Prompt-Vorlagen in Copilot
 difficulty: 4
 question: |
-  **Ziel:** Einen wiederholbaren Copilot-Workflow für typische Content-Aufgaben etablieren. ChatGPT wird hier nicht genutzt – der Fokus liegt auf Copilot als Arbeitswerkzeug.
+  **Ziel:** Einen wiederholbaren Copilot-Workflow für typische Content-Aufgaben üben. ChatGPT wird hier nicht genutzt – der Fokus liegt auf Copilot als Arbeitswerkzeug.
+
+  **Ausgangslage:** Sie übernehmen die Content-Betreuung für die fiktive Marke **GreenLoop** (nachhaltige Mode, Zielgruppe: Frauen 25–40, online-affin).
 
   ---
 
-  **Phase 1 – Standard-Workflow definieren**
+  **Phase 1 – Typische Aufgaben kennenlernen**
 
-  1. Notieren Sie **5 Content-Aufgaben**, die Sie regelmäßig bearbeiten (z. B. LinkedIn-Post, Newsletter-Teaser, Blog-Einleitung, Text kürzen, Ideenfindung).
-  2. Ordnen Sie jeder Aufgabe den typischen **Prompt-Aufbau** zu (Kontext, Format, Aufgabe, No-Gos).
+  Diese **5 Aufgabentypen** kommen im Content-Marketing regelmäßig vor – unabhängig davon, für welche Marke Sie später arbeiten:
+
+  1. LinkedIn-Post schreiben
+  2. Newsletter-Teaser formulieren
+  3. Blog-Einleitung entwerfen
+  4. Vorhandenen Text kürzen
+  5. Content-Ideen sammeln
+
+  1. Ordnen Sie jedem Aufgabentyp den typischen **Prompt-Aufbau** zu (Kontext, Format, Aufgabe, No-Gos).
+  2. Notieren Sie je Aufgabentyp **ein konkretes Beispiel für GreenLoop** (z. B. „LinkedIn-Post zum Frühjahrskollektion-Launch").
 
   ---
 
-  **Phase 2 – Vorlagen entwickeln**
+  **Phase 2 – Prompts entwickeln**
 
-  3. Erstellen Sie in Copilot für **3 der 5 Aufgaben** eine **Prompt-Vorlage** mit Platzhaltern in [eckigen Klammern]:
+  3. Wählen Sie **3 der 5 Aufgabentypen** und erstellen Sie in Copilot für jeden einen **vollständigen Prompt-Text** – mit Marke GreenLoop, Zielgruppe, No-Gos und Format:
      - Rolle/Kontext
      - Format-Vorgaben
      - No-Gos
      - Konkrete Aufgabe
 
-  4. Testen Sie jede Vorlage mit **einem echten oder fiktiven Beispiel**.
+  4. Führen Sie jeden Prompt in Copilot aus.
 
-  5. Verfeinern Sie jede Vorlage mit **mindestens einem Folgeprompt** nach dem Test.
+  5. Verfeinern Sie jeden Prompt mit **mindestens einem Folgeprompt** nach dem Test.
 
   ---
 
   **Phase 3 – Vergleich ChatGPT vs. Copilot**
 
   6. Lesen Sie Kapitel 4.1–4.2.
-  7. Notieren Sie **zwei Situationen**, in denen Copilot die richtige Wahl ist – und **eine Situation**, in der ein externes Tool theoretisch Sinn machen könnte (ohne es zu nutzen).
+  7. Formulieren Sie anhand der Kapitel-Inhalte **zwei Situationen**, in denen Copilot die richtige Wahl wäre – und **eine Situation**, in der ein externes Tool theoretisch Sinn machen könnte (ohne es zu nutzen).
 
   ---
 
   **Phase 4 – Prompt-Bibliothek**
 
-  8. Speichern Sie die 3 getesteten Vorlagen in einem Dokument (Word, Notion, OneNote – frei wählbar).
-  9. Ergänzen Sie je Vorlage: **Wann nutzen?** und **Typischer Folgeprompt**.
+  8. Speichern Sie die 3 getesteten Prompts in einem Dokument (Word, Notion, OneNote – nach Wahl).
+  9. Ergänzen Sie je Prompt: **Wann nutzen?** und **Typischer Folgeprompt**.
 
-  **Deliverables:** 3 getestete Prompt-Vorlagen mit Platzhaltern, 3 Beispiel-Ergebnisse aus Copilot.
+  **Deliverables:** Übersicht der 5 Aufgabentypen, 3 getestete Prompt-Texte, 3 Beispiel-Ergebnisse aus Copilot.
 tip: |
-  Phase 3 ist bewusst kurz – ChatGPT wird nur eingeordnet, nicht geübt. Der Schwerpunkt liegt auf Copilot-Vorlagen für den Arbeitsalltag.
+  Phase 3 ist bewusst kurz – ChatGPT wird nur eingeordnet, nicht geübt. Die Übung simuliert typische Aufgaben, die Sie später in einer Content-Rolle übernehmen werden.
 solution: |
-  Gute Vorlage: wiederverwendbar, Platzhalter klar benannt, No-Gos enthalten, Format messbar (Länge, Kanal). Nach Test mindestens ein Folgeprompt dokumentiert.
+  Gute Prompt-Texte: wiederverwendbar, konkrete Marke und Zielgruppe, No-Gos enthalten, Format messbar (Länge, Kanal). Nach Test mindestens ein Folgeprompt dokumentiert.
