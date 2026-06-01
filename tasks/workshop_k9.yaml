@@ -1,0 +1,41 @@
+title: Midjourney kennenlernen – erste Bildserie
+difficulty: 4
+question: |
+  **Ausgangslage:** Die fiktive Marke **Nordkorn** verkauft regionales Müsli. Zielgruppe: Berufstätige 28–45, gesundheitsbewusst. Stimmung: sachlich, warm, morgens, ohne Kitsch.
+
+  Arbeiten Sie in **Midjourney** und dokumentieren Sie Ihre Prompts (englisch).
+
+  ---
+
+  **Phase 1 – Erkundung**
+
+  1. Führen Sie einen **vagen Prompt** aus: `healthy breakfast cereal photo`
+  2. Führen Sie einen **präzisen Prompt** aus (MSLK: Motiv, Szene, Look, Licht/Kamera, `--ar 1:1`, `--no text, logo`)
+  3. Vergleichen Sie beide Ergebnisse – welches Bild würden Sie veröffentlichen?
+
+  ---
+
+  **Phase 2 – Kanal-Formate**
+
+  4. Erzeugen Sie ein **Instagram-Bild** (`--ar 1:1`) – Produkt im Fokus.
+  5. Erzeugen Sie ein **Lifestyle-Bild** (`--ar 4:5`) – Müsli am Frühstückstisch, Person nur unscharf im Hintergrund oder ohne Person.
+  6. Wählen Sie bei jedem Durchlauf die beste der vier Varianten.
+
+  ---
+
+  **Phase 3 – Auswahl**
+
+  7. Markieren Sie in Midjourney (mentale Auswahl reicht) Ihr **stärkstes Bild** der Session.
+  8. Führen Sie **Vary Subtle** einmal aus und speichern Sie die bessere Version.
+
+  ---
+
+  **Phase 4 – Abschluss**
+
+  9. Speichern Sie: finalen Prompt, finales Bild, **drei No-Gos**, die Sie immer wieder verwenden würden.
+
+  **Deliverables:** 2 Prompts (vage + präzise), 3 exportierte Bilder, dokumentierte No-Gos.
+tip: |
+  Phase 1 im Plenum demonstrierbar. Phasen 2–3 eigenständig. Kein Text im Bild erzeugen – Caption kommt aus Copilot (Woche 1).
+solution: |
+  Bewertungskriterien (Selbstcheck): Prompts vollständig dokumentiert, Bilder ohne lesbaren Text, Stimmung passt zu Nordkorn, mindestens ein Format 1:1 und eines 4:5.

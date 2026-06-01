@@ -1,0 +1,21 @@
+title: MSLK-Prompt für BakeHaus
+difficulty: 1
+question: |
+  Formulieren Sie einen **MSLK-Prompt** (Motiv, Szene, Look, Kamera/Licht) für **BakeHaus** (handwerkliche Bäckerei):
+
+  **Motiv:** frisches Sauerteigbrot  
+  **Szene:** rustikale Theke, Bäckerei im Hintergrund unscharf  
+  **Look:** warmes Editorial-Food-Foto  
+  **Kamera/Licht:** 45-Grad-Winkel, goldenes Morgenlicht  
+
+  Fügen Sie `--ar 4:5` und `--no text, logo, watermark` hinzu.
+
+  Erzeugen Sie das Bild in Midjourney und speichern Sie den **finalen englischen Prompt**.
+tip: |
+  Alle vier Bausteine in einem Fließtext-Prompt – keine Stichwort-Liste ohne Verben.
+solution: |
+  Beispiel:
+
+  ```
+  Fresh artisan sourdough loaf on rustic wooden board, cozy bakery interior blurred in background, warm editorial food photography, 45-degree angle, soft golden morning light, shallow depth of field --ar 4:5 --no text, logo, watermark
+  ```

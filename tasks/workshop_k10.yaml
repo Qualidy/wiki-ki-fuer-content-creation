@@ -1,0 +1,40 @@
+title: MSLK in der Praxis – GreenLoop Bild-Prompt
+difficulty: 4
+question: |
+  **Ausgangslage – Kurz-Briefing:**
+
+  > Marke GreenLoop, nachhaltige Mode. Zielgruppe: Frauen 25–40, urban, bewusst. Kanal: Instagram Feed (1:1). Botschaft: Frühjahrskollektion – sanfte Naturtöne. Kein Text im Bild, kein Logo.
+
+  ---
+
+  **Phase 1 – Briefing in Prompt übersetzen**
+
+  1. Notieren Sie **M, S, L, K** in Stichpunkten (deutsch reicht).
+  2. Formulieren Sie den **englischen Midjourney-Prompt** inkl. `--ar 1:1` und mindestens drei `--no`.
+
+  ---
+
+  **Phase 2 – Erzeugen und bewerten**
+
+  3. Generieren Sie vier Varianten.
+  4. Wählen Sie die beste – begründen Sie intern in einem Satz (Farben, Komposition, Stimmung).
+
+  ---
+
+  **Phase 3 – Nachschärfen**
+
+  5. Passen Sie den Prompt **einmal** an (z. B. mehr Minimalismus, weniger Props).
+  6. Erzeugen Sie erneut und wählen Sie das stärkere Bild.
+
+  ---
+
+  **Phase 4 – Dokumentation**
+
+  7. Speichern Sie: Briefing-Stichpunkte, finaler Prompt, finales Bild.
+  8. Formulieren Sie denselben Prompt für **LumaSkin** um (Serum statt Kleidung, gleiche Struktur).
+
+  **Deliverables:** MSLK-Notizen, 2 Prompts (GreenLoop + LumaSkin), 1 finales GreenLoop-Bild.
+tip: |
+  Phase 4 zeigt Wiederverwendbarkeit – gleiche Struktur, andere Marke. Kein Copy-Paste ohne Anpassung.
+solution: |
+  Starke Prompts: konkrete Materialien (linen, sage green), klares Licht, No-Gos konsistent, Format passend zum Kanal.

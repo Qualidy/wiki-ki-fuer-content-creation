@@ -1,0 +1,20 @@
+title: Seitenverhältnis für den Kanal
+difficulty: 3
+question: |
+  Erzeugen Sie für **Nordkorn** (regionales Müsli) **dasselbe Motiv** in zwei Formaten – nur der Parameter `--ar` ändert sich:
+
+  **Instagram (Quadrat):**
+  ```
+  Organic granola in white bowl on light oak kitchen table, soft morning light, healthy breakfast mood, product photography --ar 1:1 --no text, logo
+  ```
+
+  **LinkedIn-Banner (breit):**
+  ```
+  Organic granola in white bowl on light oak kitchen table, soft morning light, healthy breakfast mood, product photography --ar 16:9 --no text, logo
+  ```
+
+  Speichern Sie beide Bilder. Notieren Sie: Wo würden Sie später **Text im Layout-Tool** platzieren?
+tip: |
+  Gleiches Motiv, unterschiedlicher Bildausschnitt – der Parameter `--ar` steuert die Komposition mit.
+solution: |
+  Bei 16:9 oft mehr Raum links/rechts für Text in Canva. Bei 1:1 Text eher unterhalb des Motivs planen – im Prompt optional: `negative space at bottom`.

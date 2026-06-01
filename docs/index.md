@@ -7,8 +7,10 @@ hide:
 <div class="course-hero">
   <span class="course-badge">Prompt Engineering · Content Creation</span>
   <h1 class="course-title">Content Creation mit KI</h1>
-  <p class="course-desc">Von den ersten Schritten in Copilot bis zu kanalspezifischen Prompts – Schritt für Schritt, mit Kurzübungen und Workshop-Aufgaben.</p>
+  <p class="course-desc">Woche 1: Texte mit Copilot. Woche 2: Bilder mit Midjourney. Schritt für Schritt, mit Kurzübungen und Workshop-Aufgaben – an fiktiven Marken geübt.</p>
 </div>
+
+<h2 class="course-week-title">Woche 1 – Texte mit Copilot</h2>
 
 <div class="chapter-grid">
 
@@ -58,6 +60,48 @@ hide:
   <span class="day-label">Kapitel 8</span>
   <strong class="day-title">Persona, Storytelling & kreative Prompts</strong>
   <span class="day-topics">Markenstimme entwickeln · Hook & Konflikt · Alternative Ansätze</span>
+</a>
+
+</div>
+
+<h2 class="course-week-title">Woche 2 – Bilder mit Midjourney</h2>
+
+<div class="chapter-grid">
+
+<a class="day-card" href="content/kapitel9/">
+  <span class="day-label">Kapitel 9</span>
+  <strong class="day-title">Was ist Midjourney?</strong>
+  <span class="day-topics">Einstieg · Erste Bilder · Formate · Grenzen</span>
+</a>
+
+<a class="day-card" href="content/kapitel10/">
+  <span class="day-label">Kapitel 10</span>
+  <strong class="day-title">Prompt-Aufbau für Bilder</strong>
+  <span class="day-topics">MSLK-Modell · Negative Prompts · Parameter</span>
+</a>
+
+<a class="day-card" href="content/kapitel11/">
+  <span class="day-label">Kapitel 11</span>
+  <strong class="day-title">Stile steuern</strong>
+  <span class="day-topics">Foto vs. Illustration · Stil-Referenz · Farben</span>
+</a>
+
+<a class="day-card" href="content/kapitel12/">
+  <span class="day-label">Kapitel 12</span>
+  <strong class="day-title">Bilder verfeinern</strong>
+  <span class="day-topics">Vary · Upscale · Prompt nachschärfen</span>
+</a>
+
+<a class="day-card" href="content/kapitel13/">
+  <span class="day-label">Kapitel 13</span>
+  <strong class="day-title">Bilder für Social & Marketing</strong>
+  <span class="day-topics">Kanal-Formate · Produkt vs. Lifestyle · Text + Bild</span>
+</a>
+
+<a class="day-card" href="content/kapitel14/">
+  <span class="day-label">Kapitel 14</span>
+  <strong class="day-title">Konsistenz & Bild-Workflow</strong>
+  <span class="day-topics">Bildserien · Dokumentation · Mini-Kampagne</span>
 </a>
 
 </div>

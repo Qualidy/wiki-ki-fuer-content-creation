@@ -1,0 +1,22 @@
+title: Vager vs. präziser Bild-Prompt
+difficulty: 2
+question: |
+  Arbeiten Sie für die fiktive Marke **GreenLoop** (nachhaltige Mode).
+
+  **Schritt 1 – vager Prompt:**
+  ```
+  nice fashion photo for instagram
+  ```
+
+  **Schritt 2 – präziser Prompt:**
+  Formulieren Sie selbst einen Prompt mit: Motiv (Kleidungsstück), Szene, Stil, Licht, `--ar 1:1`, mindestens zwei `--no`-Angaben.
+
+  **Deliverable:** beide Prompts (englisch), je ein gespeichertes Bild aus Schritt 2, **drei Stichpunkte**, was Schritt 2 besser macht.
+tip: |
+  Vergleich direkt in Midjourney – nicht theoretisch diskutieren. Schritt 2 sollte MSLK-Elemente enthalten (Kapitel 10).
+solution: |
+  Beispiel präziser Prompt:
+
+  ```
+  Folded organic cotton sweater in sage green on light linen fabric, dried eucalyptus, soft natural window light, minimalist sustainable fashion flat lay, Scandinavian aesthetic --ar 1:1 --no text, logo, watermark, plastic
+  ```

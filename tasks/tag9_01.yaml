@@ -1,0 +1,18 @@
+title: Erstes Bild in Midjourney
+difficulty: 1
+question: |
+  Öffnen Sie **midjourney.com** und melden Sie sich an.
+
+  Geben Sie diesen Prompt ein (englisch, wie im Kurs üblich):
+
+  ```
+  Cozy café interior, ceramic coffee cup on wooden table, warm morning light, inviting atmosphere, lifestyle photography --ar 4:5 --no text, logo
+  ```
+
+  1. Warten Sie auf die vier Vorschläge.
+  2. Wählen Sie **eine Variante**, die am besten zu einem Instagram-Post passen würde.
+  3. Speichern Sie das Bild und notieren Sie in **einem Satz**, warum Sie diese Variante gewählt haben.
+tip: |
+  Die Wahl trainiert das Auge – wichtiger als der erste Prompt. Kein Text im Bild nötig.
+solution: |
+  Gute Wahl: klare Komposition, warme Stimmung, keine verzerrten Objekte, genug Ruhe im Bild. Schwache Wahl: unruhiger Hintergrund, künstlich wirkendes Licht, unleserliche Schrift (dann Prompt mit `--no text` verschärfen).

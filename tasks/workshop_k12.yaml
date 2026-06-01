@@ -1,0 +1,38 @@
+title: Vom Entwurf zum Finalbild – Nordkorn
+difficulty: 4
+question: |
+  **Ausgangslage:** Nordkorn – Instagram-Post, Produkt im Fokus, warme Morgenstimmung, `--ar 1:1`, kein Text im Bild.
+
+  ---
+
+  **Phase 1 – Entwurf**
+
+  1. Prompt mit MSLK formulieren und **vier Varianten** erzeugen.
+  2. Beste Variante auswählen.
+
+  ---
+
+  **Phase 2 – Verfeinern**
+
+  3. **Vary Subtle** (mindestens einmal).
+  4. Wenn nötig: Prompt **einmal** anpassen und neu generieren (nicht nur Vary).
+  5. **Vary Strong** nur, wenn Subtle nicht reicht.
+
+  ---
+
+  **Phase 3 – Finalisieren**
+
+  6. Bestes Bild **upscalen** und exportieren.
+  7. Prompt-Kette dokumentieren: Start-Prompt → Änderungen → Final-Prompt.
+
+  ---
+
+  **Phase 4 – Layout-Vorbereitung**
+
+  8. Notieren Sie, wo in **Canva/Figma** später die Caption (aus Copilot) platziert würde – oben, unten, als Overlay.
+
+  **Deliverables:** exportiertes Finalbild, dokumentierte Prompt-Kette (mindestens 2 Schritte).
+tip: |
+  Bewusst begrenzte Runden – Ziel ist ein brauchbares Bild, nicht perfekte Kunst.
+solution: |
+  Gute Kette: klarer Fortschritt, nachvollziehbare Prompt-Änderungen, ein finales Upscale-Bild ohne Text-Artefakte.

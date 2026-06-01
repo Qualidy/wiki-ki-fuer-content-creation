@@ -1,0 +1,42 @@
+title: Marken-Look mit Stil-Referenz – LumaSkin
+difficulty: 4
+question: |
+  **Ziel:** Für **LumaSkin** einen wiedererkennbaren Bild-Look definieren und auf ein zweites Motiv übertragen.
+
+  ---
+
+  **Phase 1 – Referenzbild**
+
+  1. Erzeugen Sie ein Referenzbild mit diesem Prompt:
+
+     ```
+     Matte white skincare serum bottle on marble surface, soft rose and grey color palette, clean spa atmosphere, luxury beauty product photography, soft diffused light --ar 4:5 --no text, logo, watermark
+     ```
+
+  2. Wählen Sie die beste Variante und **upscalen** Sie sie.
+
+  ---
+
+  **Phase 2 – Stil-Referenz nutzen**
+
+  3. Nutzen Sie das Referenzbild als **Style Reference** (Web-UI) oder notieren Sie die Bild-URL für `--sref` (falls verfügbar).
+  4. Erzeugen Sie ein **zweites Motiv** im gleichen Look: `skincare moisturizer jar` statt Serumflasche – gleiche Palette und Stimmung.
+
+  ---
+
+  **Phase 3 – Vergleich**
+
+  5. Erzeugen Sie dasselbe zweite Motiv **ohne** Stil-Referenz.
+  6. Vergleichen Sie: Wirken beide Bilder wie eine Serie?
+
+  ---
+
+  **Phase 4 – Abschluss**
+
+  7. Dokumentieren Sie: Referenz-Prompt, Motiv-2-Prompt mit Referenz, beide exportierten Bilder.
+
+  **Deliverables:** 1 Referenzbild, 2 Motiv-2-Bilder (mit/ohne Referenz), Prompt-Dokumentation.
+tip: |
+  Wenn Stil-Referenz in Ihrer Oberfläche anders heißt: Bild auswählen → „Use as style reference“ o. ä. – Funktion ist entscheidend, nicht der exakte Button-Name.
+solution: |
+  Mit Stil-Referenz: ähnlichere Farben und Licht. Ohne Referenz: oft abweichende Stimmung – Konsistenz braucht Referenz oder sehr identische Prompts.

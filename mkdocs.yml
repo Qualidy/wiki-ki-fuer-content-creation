@@ -10,6 +10,12 @@ nav:
   - "Kapitel 6 – Prompts verbessern": content/kapitel6.md
   - "Kapitel 7 – Blog, Social & Newsletter": content/kapitel7.md
   - "Kapitel 8 – Persona & Storytelling": content/kapitel8.md
+  - "Kapitel 9 – Was ist Midjourney?": content/kapitel9.md
+  - "Kapitel 10 – Prompt-Aufbau für Bilder": content/kapitel10.md
+  - "Kapitel 11 – Stile steuern": content/kapitel11.md
+  - "Kapitel 12 – Bilder verfeinern": content/kapitel12.md
+  - "Kapitel 13 – Social & Marketing-Bilder": content/kapitel13.md
+  - "Kapitel 14 – Konsistenz & Workflow": content/kapitel14.md
 
 theme:
   name: material

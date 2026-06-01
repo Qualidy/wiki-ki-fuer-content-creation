@@ -1,0 +1,42 @@
+title: Multi-Kanal-Bilder – eine Kernbotschaft
+difficulty: 4
+question: |
+  **Kernbotschaft (nicht ins Bild schreiben):**
+
+  > FlowTask bringt Spracheingabe für Aufgaben – Teamleiter in Agenturen sparen Zeit beim Erfassen von To-dos.
+
+  **Marke:** FlowTask (Projektmanagement, professionell, modern)
+
+  ---
+
+  **Phase 1 – Briefing**
+
+  1. Notieren Sie: Zielgruppe, Stimmung, drei No-Gos für Bilder.
+  2. Planen Sie **drei Bildtypen**: Instagram 1:1, LinkedIn 16:9, Story 9:16.
+
+  ---
+
+  **Phase 2 – Erzeugen**
+
+  3. Formulieren Sie **drei englische Prompts** (jeweils MSLK, passendes `--ar`, `--no text, logo`).
+  4. Erzeugen Sie alle drei Bilder, wählen Sie je beste Variante, upscalen Sie.
+
+  ---
+
+  **Phase 3 – Text in Copilot**
+
+  5. Schreiben Sie in **Copilot** je **einen Satz** Overlay-Text für LinkedIn und Instagram (nicht im Bild – für Canva).
+  6. Prüfen Sie: Passen Ton der Sätze und Bildstimmung zusammen?
+
+  ---
+
+  **Phase 4 – Abschluss**
+
+  7. Exportieren Sie alle drei Bilder mit klaren Dateinamen.
+  8. Speichern Sie die drei Prompts in einem Dokument.
+
+  **Deliverables:** 3 Bilder, 3 Prompts, 2 Overlay-Text-Sätze aus Copilot.
+tip: |
+  Gleiche Botschaft, unterschiedliche Komposition und Seitenverhältnis – wie bei Multi-Kanal-Texten in Woche 1.
+solution: |
+  Instagram: Nahaufnahme Büro/Tool-Stimmung. LinkedIn: Breit mit negative space. Story: Vertikal, eine klare Handlung oder ein starkes Objekt.

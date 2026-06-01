@@ -1,0 +1,22 @@
+title: Negative Prompts gezielt einsetzen
+difficulty: 2
+question: |
+  Starten Sie mit diesem Prompt für **LumaSkin** (Kosmetik, Serum):
+
+  ```
+  Skincare serum bottle on bathroom shelf, soft spa lighting, product photo --ar 4:5
+  ```
+
+  1. Erzeugen Sie das Bild.
+  2. Prüfen Sie: Gibt es unerwünschte Elemente (Text, Überladung, cartoonhafter Look)?
+  3. Formulieren Sie den Prompt **neu** mit mindestens **vier** `--no`-Begriffen, die zu Ihrem Ergebnis passen.
+
+  **Deliverable:** alter und neuer Prompt, das bessere Bild.
+tip: |
+  `--no` erst ergänzen, wenn Sie wissen, was stört – oder Standard-Set aus dem Kapitel nutzen: text, logo, watermark, blurry.
+solution: |
+  Beispiel Ergänzung:
+
+  ```
+  --no text, logo, watermark, oversaturated, cartoon, cluttered background, distorted bottle
+  ```

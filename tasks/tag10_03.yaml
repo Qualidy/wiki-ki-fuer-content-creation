@@ -1,0 +1,26 @@
+title: Schwachen Prompt verbessern
+difficulty: 3
+question: |
+  Dieser Prompt ist zu schwach:
+
+  ```
+  product image of project management software
+  ```
+
+  Verbessern Sie ihn für **FlowTask** (Software für Agentur-Teams, professionell, modern):
+
+  - Konkretes **Motiv** (z. B. Laptop mit Dashboard – ohne lesbaren Text auf dem Screen: `blurred abstract UI`)
+  - **Szene** (modernes Büro, Team-Umfeld)
+  - **Look** (clean SaaS marketing photography)
+  - **Licht/Kamera**
+  - `--ar 16:9`, `--no text, logo, readable UI text`
+
+  Erzeugen Sie das Bild und speichern Sie den verbesserten Prompt.
+tip: |
+  Software-Bilder ohne lesbare UI: `abstract blurred dashboard on laptop screen` verhindert Kauderwelsch-Text.
+solution: |
+  Beispiel:
+
+  ```
+  Modern agency office desk, laptop with abstract blurred colorful dashboard on screen, notebook and coffee cup, clean SaaS product marketing photography, soft daylight, wide composition with negative space on the left --ar 16:9 --no text, logo, readable text on screen, watermark
+  ```
